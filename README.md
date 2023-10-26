@@ -1,10 +1,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-XP264)
 
-#XP264  - Get Hands-On Security Recommendations for Your SAP BTP Environment
+#XP185v  - Get Hands-On Security Recommendations for Your SAP BTP Environment
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2023 session called XP264  - Get Hands-On Security Recommendations for Your SAP BTP Environment.  
+This repository contains the material for the virtual SAP TechEd 2023 session called XP185v  - Get Hands-On Security Recommendations for Your SAP BTP Environment.  
 
 ## Overview
 
