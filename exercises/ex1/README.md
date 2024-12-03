@@ -1,6 +1,6 @@
 # Exercise 1 - Enable Multi-Factor Authentication for applications
 
-In this exercise, we will show how to enable Multi-Factor Authentication (MFA) using Time-based one-time password (TOTP) for Application Users. In general we recommend to configure Risk-Based Authentication methods, such as Multi-Factor Authentication, for the access to the **SAP BTP Cockpit** and the **SCI administrative console**. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
+In this exercise, we will show how to enable Multi-Factor Authentication (MFA) using Time-based one-time password (TOTP) for Application Users. In general we recommend to configure Risk-Based Authentication methods, such as Multi-Factor Authentication, for the access to the **SAP BTP Cockpit** and the **SCI administrative console**. In the trial version this is not possible, because there is no possibility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
 The configuration in the **SCI administrative console** is the same, only for a different application. You will use **SAP Build Apps** as application to configure the risk-based authentication.
 
 :bulb: **What is Multi-Factor Authentication (MFA)?**
@@ -21,7 +21,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 ## Exercise 1.1 - Setup SAP Build Apps and enter the application with your trial identity provider user
 
 
-1. Open the **SAP BTP Cockpit** and navigate to your global account. You should have bookmarked the URL in the **Getting started** excercise.
+1. Open the **SAP BTP Cockpit** and navigate to your global account. You should have bookmarked the URL in the **Getting started** exercise.
 
 2. Navigate to **Boosters**
 
@@ -31,7 +31,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/gBoostergetstartedsapbuild apps.png" width="70%">
 
-5. Now a wizzard opens and you follow the wizzard and click next after each entry.
+5. Now a wizard opens and you follow the wizard and click next after each entry.
 
 6. Check prerequisites
 
@@ -45,7 +45,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/Booster4.png" width="70%">
 
-9. Add Users - enter your email adresss for Administrators and Developers
+9. Add Users - enter your email address for Administrators and Developers
 
 <br><img src="/exercises/ex1/images/Booster5.png" width="70%">
 
@@ -73,7 +73,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/logon_XSUAA_trial.png" width="50%"> 
 
-15. The Authorization should be succesfull as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the **SAP Build App** application.
+15. The Authorization should be successful as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the **SAP Build App** application.
 
 <br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
 
@@ -102,9 +102,9 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/SCItenantApplications.png" width="70%">
 
-5. On the left side you see Bundled and System Applications. In Bundled Applications we see the Application **XSUAA_trial**. Click on it to see the confguration data of this application.
+5. On the left side you see Bundled and System Applications. In Bundled Applications we see the Application **XSUAA_trial**. Click on it to see the configuration data of this application.
 
-💡  **XSUAA** is a service broker for the OAuth authorization server provided by the Cloud Foundry UAA. It offers authentication and authorization services for micro service style applications. It is used by almost all applications running on SAP BTP in the cloud foundry environment. When we configure Two-factor authentication for this application, all applications running on SAP BTP in the cloud foundry envrionment, will have to provide a second factor for authentication. 
+💡  **XSUAA** is a service broker for the OAuth authorization server provided by the Cloud Foundry UAA. It offers authentication and authorization services for micro service style applications. It is used by almost all applications running on SAP BTP in the cloud foundry environment. When we configure Two-factor authentication for this application, all applications running on SAP BTP in the cloud foundry environment, will have to provide a second factor for authentication. 
    
 6. In the configuration screen of the XSUAA_trial application navigate to **Authentication & Access**
    
@@ -114,7 +114,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/XSUAA_trial_app_SCI.png" width="70%">
 
-8. In the **Risk-Based Authentication** frame you have the possiblity to create Authentication Rules and you can see the Default Authentication Rule, which is **Allow**.
+8. In the **Risk-Based Authentication** frame you have the possibility to create Authentication Rules and you can see the Default Authentication Rule, which is **Allow**.
 
  <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_default.png" width="70%">
 
@@ -128,7 +128,7 @@ Once the configuration is complete, the system prompts the user to select any of
 
 1. Navigate to your users profile page in **SAP Cloud Identity**.
 
-2. The user profile shows you the authentication methods setup for a user. You can access it through the following link in the trial envrionment: 
+2. The user profile shows you the authentication methods setup for a user. You can access it through the following link in the trial environment: 
 
 **https://"trialtenant-ID".trial-accounts.ondemand.com/ui/protected/profilemanagement**
 
@@ -136,7 +136,7 @@ Add the **ui/protected/profilemanagement** in your browser after **https://"tria
 
 Here you can add/remove your authentication method, like accessing using your fingerprint etc. The next steps need a device with a time-based authentication application installed (such as Google Authenticator or Microsoft Authenticator).
 
-3. Open the Multi-Factor Auhentication. Click on **Activate TOTP Two-Factor Authentication**.
+3. Open the Multi-Factor Authentication. Click on **Activate TOTP Two-Factor Authentication**.
 
 <br><img src="/exercises/ex1/images/userprofile1.png" width="70%">
 
@@ -158,19 +158,19 @@ Here you can add/remove your authentication method, like accessing using your fi
 
 <br><img src="/exercises/ex1/images/MFASAPBUILDAPPSOpen.png" width="70%">
 
-8. Select our SCI tenant to logon
+9. Select our SCI tenant to logon
 
 <br><img src="/exercises/ex1/images/MFASAPBUILDAPPSLogon1.png" width="70%">
 
-9. A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity User and his Password.
+10. A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity User and his Password.
 
 <br><img src="/exercises/ex1/images/logon_XSUAA_trial.png" width="50%"> 
 
-9. The next Pop-Up will ask for a **passcode**. Open the **authenticatior app** you are using on our mobile device. To proceed, please enter the time-based passcode generated by your mobile device for the application. Then continue.
+11. The next Pop-Up will ask for a **passcode**. Open the **authenticator app** you are using on our mobile device. To proceed, please enter the time-based passcode generated by your mobile device for the application. Then continue.
 
 <br><img src="/exercises/ex1/images/MFASAPBUILDAPPSPasscode.png" width="70%">
 
-10. **Success!** The SAP Build App opens.
+12. **Success!** The SAP Build App opens.
 
 <br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
 
