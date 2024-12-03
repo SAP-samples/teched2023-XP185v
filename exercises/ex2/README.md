@@ -11,9 +11,9 @@ In this exercise you will learn about further security recommendations that help
 
 ## Exercise 2.1 Identify obsolete users
 
-It makes sense to review on a regular basis whether the users actually need access to adminsitrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this excercise. One is the **SAP BTP cockpit** and the other one is the **administrative console for Cloud Identity Services**. In the Trial BTP cockpit we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services we have access. In this excercise we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
+It makes sense to review on a regular basis whether the users actually need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this exercise. One is the **SAP BTP cockpit** and the other one is the **administrative console for Cloud Identity Services**. In the Trial BTP cockpit we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services we have access. In this exercise we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
 
-1. Open the **administrative console for Cloud Identity Services** from your bookmarks or like describt in the fist excercise. 
+1. Open the **administrative console for Cloud Identity Services** from your bookmarks or like described in the fist exercise. 
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
@@ -22,7 +22,7 @@ It makes sense to review on a regular basis whether the users actually need acce
 
 <br><img src="/exercises/ex2/images/ex200user1.png" width="70%">
 
-4. A pop-Up window will allow to enter the relevant test user information. You are free to choose the name and email adress. Set the status to active. Click on the **+ Add**-button.
+4. A pop-Up window will allow to enter the relevant test user information. You are free to choose the name and email address. Set the status to active. Click on the **+ Add**-button.
 
 <br><img src="/exercises/ex2/images/ex200user2.png" width="70%">
 
@@ -34,11 +34,11 @@ It makes sense to review on a regular basis whether the users actually need acce
 
 <br><img src="/exercises/ex2/images/ex20add.png" width="70%">
 
-7. Add the **Identifier** information (Email adress) of the new test user in the Add Administrator window and click on the **Save**-button.
+7. Add the **Identifier** information (Email address) of the new test user in the Add Administrator window and click on the **Save**-button.
 
 <br><img src="/exercises/ex2/images/ex200user3.png" width="70%">
    
-7. Now we can check the User and his authorizations. The assignment of the following authorizations is critical.
+8. Now we can check the User and his authorizations. The assignment of the following authorizations is critical.
 You will manage them ideally as part of your identity lifecycle process.
 - Manage Corporate Identity Providers
 - Manage Tenant Configuration
@@ -46,11 +46,11 @@ You will manage them ideally as part of your identity lifecycle process.
   
 <br><img src="/exercises/ex2/images/ex200user4.png" width="70%">
 
-8. Remove the authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Uncheck all Radio-buttons. Then click on the **Save**-button.
+9. Remove the authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Uncheck all Radio-buttons. Then click on the **Save**-button.
 
 <br><img src="/exercises/ex2/images/ex200user5.png" width="70%">
 
-9. Now you have to confirm your changes. Click on the **Okay**-button. 
+10. Now you have to confirm your changes. Click on the **Okay**-button. 
 
 <br><img src="/exercises/ex2/images/ex200user6.png" width="70%">
 
@@ -97,7 +97,7 @@ By default, SAP Cloud Identity services come with 2 password policies, Standard 
 
 <br><img src="/exercises/ex2/images/ex2pp4.png" width="70%">
 
-Now you know how to create a custom password policy that you can use for additional protection of your applications. We now want to add the pasword policy to an application. 
+Now you know how to create a custom password policy that you can use for additional protection of your applications. We now want to add the password policy to an application. 
 
 9. Navigate to **Applications & Resources -> Applications**. Select one application on the left and choose on the right side **Authentication & Access -> Policies**.
 
