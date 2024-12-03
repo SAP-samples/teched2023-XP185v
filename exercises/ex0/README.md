@@ -6,9 +6,9 @@ We can expect that you did create a **Trial subaccount** in your SAP BTP Trial A
 
 We also expect that you did enable the **Cloud Foundry Environment**.
 
-Finally you have installed on your mobile device a time-based authentication application (such as Google Authenticator or Microsoft Authenticator).
+Finally, you have installed on your mobile device a time-based authentication application (such as Google Authenticator or Microsoft Authenticator).
 
-Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you did already establish the Trust configration in your BTP Trial Subaccount, which adds the Trial Identity Provider for applications to enable users from your Trial Identity Provider to log on to applications consumed in this subaccount.
+Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you did already establish the Trust configuration in your BTP Trial Subaccount, which adds the Trial Identity Provider for applications to enable users from your Trial Identity Provider to log on to applications consumed in this subaccount.
 
 ## Result of the preparation
 
@@ -23,9 +23,9 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
 <br>![](/exercises/ex0/images/Subaccount%20Overview.png)
 
-4. Check the Trust Configuration for application users
+4. Check the Trust Configuration for application users.
 
-   Navigate in the  BTP Cockpit to **Trial HOME -> your initial subaccount (e.g. Trial Subaccount 1 ) -> Security -> Trust Configuration**
+   Navigate in the  BTP Cockpit to **Trial HOME -> your initial subaccount (e.g. Trial Subaccount 1) -> Security -> Trust Configuration**
 
    Check if the Custom Identity Provider for applications is configured. If not go back to the preparations and follow the blog [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/) on how to configure it.
 
@@ -33,7 +33,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
 5. Logon to your personal Identity Provider - SCI Cockpit (SCI - SAP Cloud Identity service).
 
-   Navigate in your Subaccoount to **Instance and Subscriptions**. Click on the tile next to the subscribt application **Cloud Identity Services** which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services Trial Account Cockpit. **Bookmark** the link for fast and quick access to the **SCI cockpit**.
+   Navigate in your Subaccount to **Instance and Subscriptions**. Click on the tile next to the subscribed application **Cloud Identity Services** which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services Trial Account Cockpit. **Bookmark** the link for fast and quick access to the **SCI cockpit**.
 
     <br>![](/exercises/ex0/images/SubaccountInstanceandSubscriptions.png)
    
