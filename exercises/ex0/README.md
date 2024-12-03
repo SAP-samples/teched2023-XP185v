@@ -6,7 +6,7 @@ We can expect that you did create a **Trial subaccount** in your SAP BTP Trial A
 
 We also expect that you did enable the **Cloud Foundry Environment**.
 
-Finally you have installed on your mobile device a time-based authentication application (such as SAP Authenticator, Google Authenticator or Microsoft Authenticator).
+Finally you have installed on your mobile device a time-based authentication application (such as Google Authenticator or Microsoft Authenticator).
 
 Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you did already establish the Trust configration in your BTP Trial Subaccount, which adds the Trial Identity Provider for applications to enable users from your Trial Identity Provider to log on to applications consumed in this subaccount.
 
