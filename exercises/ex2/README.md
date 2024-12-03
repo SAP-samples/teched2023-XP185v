@@ -11,14 +11,14 @@ In this exercise you will learn about further security recommendations that help
 
 ## Exercise 2.1 Identify obsolete users
 
-It makes sense to review on a regular basis whether the users actually need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this exercise. One is the **SAP BTP cockpit** and the other one is the **administrative console for Cloud Identity Services**. In the Trial BTP cockpit we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services we have access. In this exercise we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
+It makes sense to review on a regular basis whether the users actually need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this exercise. One is the **SAP BTP cockpit**, and the other one is the **administrative console for Cloud Identity Services**. In the Trial BTP cockpit, we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services, we have access. In this exercise we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
 
 1. Open the **administrative console for Cloud Identity Services** from your bookmarks or like described in the fist exercise. 
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
-2. First we will add a new test user. Navigate to **User & Authorizations -> User Management**
-3. Click on the **+ Add**-button
+2. First, we will add a new test user. Navigate to **User & Authorizations -> User Management**
+3. Click on the **+ Add**-button.
 
 <br><img src="/exercises/ex2/images/ex200user1.png" width="70%">
 
@@ -30,7 +30,7 @@ It makes sense to review on a regular basis whether the users actually need acce
 
 <br><img src="/exercises/ex2/images/ex22.png" width="70%">
 
-6. Click on **Add -> User**
+6. Click on **Add -> User**.
 
 <br><img src="/exercises/ex2/images/ex20add.png" width="70%">
 
@@ -50,15 +50,15 @@ You will manage them ideally as part of your identity lifecycle process.
 
 <br><img src="/exercises/ex2/images/ex200user5.png" width="70%">
 
-10. Now you have to confirm your changes. Click on the **Okay**-button. 
+10. Now you have to confirm your changes. Click on the **Okay** button. 
 
 <br><img src="/exercises/ex2/images/ex200user6.png" width="70%">
 
 The only administrator left will be your trial account user.
 You cannot remove the authorizations of this user completely, as he is the only one left. 
-For this reason the authorization
+For this reason, the authorization
 - Manage Tenant Configuration
-- Manage tenant configuration and authorization assignment to users 
+- Manage tenant configuration and authorization assignment to users. 
 
 is greyed out. 
 
@@ -81,13 +81,13 @@ By default, SAP Cloud Identity services come with 2 password policies, Standard 
 
 <br><img src="/exercises/ex2/images/ex2pp2.png" width="70%">
 
-4. The dialog **Custom Password Policy** is displayed
+4. The dialog **Custom Password Policy** is displayed.
 
 <br><img src="/exercises/ex2/images/ex2pp3.png" width="70%">
 
 5. Set the policy strength to **3**. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
 
-💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong
+💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong.
 
 6. Decide on the "Password Behavior". Should the user be able to reset an expired password with the old one, or should the user have to perform the password reset process?
 
@@ -114,7 +114,7 @@ Now the new password policy is active for the application. It sets the rules you
 ## Exercise 2.3 Keep public access to applications by self-registration disabled
 
 For business-to-consumer (public) scenarios, self-registration may be required. By default, self-registration is disabled (value = internal) and can be configured per application.
-Corporate identity lifecycle processes make self-registration undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios. We recommend to keep self-registration disabled (value = internal). Actively manage use cases that require the function.
+Corporate identity lifecycle processes make self-registration undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios. We recommend keeping self-registration disabled (value = internal). Actively manage use cases that require the function.
 
 Procedure
 
