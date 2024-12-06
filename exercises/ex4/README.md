@@ -1,1 +1,6 @@
-Initial
+# Exercise 4 - Managing administrative authorization in SAP Cloud Identity
+
+SAP Cloud Identity offers a wealth of functionality in the space of Identity and Access Management (IAM). Especially in larger organizations, it may not be possible for any individual to manage all IAM processes available in the cockpit, or be responsible for the IAM-related configuration of all end users in the organization. A solution for this problem is to share the work among multiple persons. However, by default, everybody working as an administrator in the SAP Cloud Identity cockpit has very broad authorizations. It may be a security risk if individuals that are meant to perform limited administrative tasks have full administrative access way beyond their area of responsibility. 
+In this execise you will learn how to implement fine grained administrative authorizations that allow you give limited access when delgating administrative tasks to others.  
+
+## Exercise 4.1
