@@ -16,7 +16,7 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
   <br><img src="/exercises/ex3/IMAGES/audit0.png" width="70%">
 
-2. Navigate to your **trail subaccount** by clicking on the tile. Go to **Service Marketplace**.
+2. Navigate to your **trial subaccount** by clicking on the tile. Go to **Service Marketplace**.
 
  <br><img src="/exercises/ex3/IMAGES/audit02.png" width="70%">
 
@@ -50,7 +50,7 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
   <br><img src="/exercises/ex3/IMAGES/audit0.png" width="70%">
 
-2. Go to the **trail subaccount** by clicking on the tile.
+2. Go to the **trial subaccount** by clicking on the tile.
 
 3. Choose the menu item **Security --> Role Collections** and click on the **"+"**-button to create a new role collection.
 
