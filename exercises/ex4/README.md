@@ -43,4 +43,30 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/CreatePolicy.png" width="70%">
 
-6. 
+## Exercise 4.3 Create a user account for testing
+
+## Exercise 4.4 Add authorization policy to your user
+
+## Exercise 4.5 Remove classic authorization for reading users
+
+## Exercise 4.6 Validate that you can still read all user records
+
+## Exercise 4.7 Restrict the authorization policy
+
+6. Click on the **+** icon to add a new restriction
+
+  <br><img src="/exercises/ex4/images/AddNewRestriction.png" width="70%">
+
+7. Click on the **+** icon and select **Value**
+
+  <br><img src="/exercises/ex4/images/ConfigureNewRestriction.png" width="70%">
+
+8. Enter the restriction attribute **user.organization**, the operator **=** and the value **Bestrun**. Then click on **Save**.
+
+  <br><img src="/exercises/ex4/images/SetRestrictionValue.png" width="70%">
+
+## Exercise 4.8 Validate that you can only see the allowed user accounts
+
+
+
+
