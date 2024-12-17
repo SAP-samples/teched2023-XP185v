@@ -47,7 +47,7 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/SavePolicyWithoutRestriction.png" width="70%">
 
-You have now create an authorization policy that gives READ access to user accounts. 
+You have now created an authorization policy that gives READ access to user accounts. 
 
 
 ## Exercise 4.3 Create a user account for testing
