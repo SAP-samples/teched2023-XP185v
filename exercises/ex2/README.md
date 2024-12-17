@@ -13,7 +13,7 @@ In this exercise you will learn about further security recommendations that help
 
 It makes sense to review on a regular basis whether the users actually need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this exercise. One is the **SAP BTP cockpit**, and the other one is the **administrative console for Cloud Identity Services**. In the Trial BTP cockpit, we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services, we have access. In this exercise we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
 
-1. Open the **administrative console for Cloud Identity Services** from your bookmarks or like described in the fist exercise. 
+1. Open the **administrative console for Cloud Identity Services** from your bookmarks or like described in the first exercise. 
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
