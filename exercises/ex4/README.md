@@ -7,9 +7,9 @@ In this execise you will learn how to implement fine grained administrative auth
 
 1. Open the administrative console for SAP Cloud Identity services from your bookmarks or like described in the first exercise.
 
-  <br><kbd><img src="/exercises/ex2/images/SCICockpit.png" width="70%"></kbd>
+  <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
-2. Navigate to your **trial subaccount** by clicking on the tile. Go to **Tenant Settings** in the **Applications & Resources** section.
+2. Go to **Tenant Settings** in the **Applications & Resources** section.
 
   <br><img src="/exercises/ex4/images/TenantSettings.png" width="70%">
 
