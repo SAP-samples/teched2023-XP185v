@@ -5,9 +5,9 @@ In this execise you will learn how to implement fine grained administrative auth
 
 ## Exercise 4.1 Enable policy-based authorizations in SAP Cloud Identity
 
-1. Open the **SAP BTP Cockpit**.
+1. Open the administrative console for SAP Cloud Identity services from your bookmarks or like described in the first exercise.
 
-  <br><img src="/exercises/ex3/IMAGES/audit0.png" width="70%">
+  <br><kbd><img src="/exercises/ex2/images/SCICockpit.png" width="70%"></kbd>
 
 2. Navigate to your **trial subaccount** by clicking on the tile. Go to **Tenant Settings** in the **Applications & Resources** section.
 
