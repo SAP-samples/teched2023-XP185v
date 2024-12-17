@@ -21,13 +21,19 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/EnablePolicyBasedAuthZ.png" width="70%">
 
-5. Open the menu and go to the **Groups** user interface
+5. Open the menu and go to the **Applications** user interface
 
-  <br><img src="/exercises/ex4/images/GroupsMenu.png" width="70%">
+  <br><img src="/exercises/ex4/images/ApplicationsMenu.png" width="70%">
 
-  You will see the newly enabled groups for managing policy-based authorizations.
+6. Select the system application **Administration Console** , which represents the administration console of SAP Cloud Identity services.
 
-  <br><img src="/exercises/ex4/images/DelegatedAdminGroups.png" width="70%">
+  <br><img src="/exercises/ex4/images/Applications.png" width="70%">
 
-6. 
+7. Open the tab **Authorization Policies**
+  
+  <br><img src="/exercises/ex4/images/AdminConsoleApp.png" width="70%">
 
+8. A list of authorization policies is displayed, which can be used to manage access to the administration console. Click on the **Create** dropdown menu and select the menu item **Create Restriction**
+
+  <br><img src="/exercises/ex4/images/AdminConsoleAppPolicies.png" width="70%">
+  
