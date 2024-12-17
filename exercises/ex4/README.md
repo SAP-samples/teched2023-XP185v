@@ -21,19 +21,26 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/EnablePolicyBasedAuthZ.png" width="70%">
 
-5. Open the menu and go to the **Applications** user interface
+## Exercise 4.2 Create an authorizations policy for reading users
+
+1. Open the menu and go to the **Applications** user interface
 
   <br><img src="/exercises/ex4/images/ApplicationsMenu.png" width="70%">
 
-6. Select the system application **Administration Console** , which represents the administration console of SAP Cloud Identity services.
+2. Select the system application **Administration Console** , which represents the administration console of SAP Cloud Identity services.
 
   <br><img src="/exercises/ex4/images/Applications.png" width="70%">
 
-7. Open the tab **Authorization Policies**
+3. Open the tab **Authorization Policies**
   
   <br><img src="/exercises/ex4/images/AdminConsoleApp.png" width="70%">
 
-8. A list of authorization policies is displayed, which can be used to manage access to the administration console. Click on the **Create** dropdown menu and select the menu item **Create Restriction**
+4. A list of authorization policies is displayed, which can be used to manage access to the administration console. Click on the **Create** dropdown menu and select the menu item **Create Restriction**
 
   <br><img src="/exercises/ex4/images/AdminConsoleAppPolicies.png" width="70%">
   
+5. In the popup dialog, enter the policy name **READ_USERS_BESTRUN** and choose the base policy **users.READ_USERS**. Then click on **Create**.
+
+  <br><img src="/exercises/ex4/images/CreatePolicy.png" width="70%">
+
+6. 
