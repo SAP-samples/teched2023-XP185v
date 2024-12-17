@@ -21,5 +21,13 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/EnablePolicyBasedAuthZ.png" width="70%">
 
-5. 
+5. Open the menu and go to the **Groups** user interface
+
+  <br><img src="/exercises/ex4/images/GroupsMenu.png" width="70%">
+
+  You will see the newly enabled groups for managing policy-based authorizations.
+
+  <br><img src="/exercises/ex4/images/DelegatedAdminGroups.png" width="70%">
+
+6. 
 
