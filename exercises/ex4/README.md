@@ -13,4 +13,11 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/TenantSettings.png" width="70%">
 
-3. 
+3. Open the tab **Policy-Based Authorizations**
+  <br><img src="/exercises/ex4/images/PolicyBasedAuthZMenu.png" width="70%">
+
+4. Enable policy-based authorizations
+  <br><img src="/exercises/ex4/images/EnablePolicyBasedAuthZ.png" width="70%">
+
+5. 
+
