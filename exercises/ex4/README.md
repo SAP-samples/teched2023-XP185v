@@ -91,10 +91,32 @@ You have now created an authorization policy that gives READ access to user acco
 
 ## Exercise 4.6 Validate that you can still see all user records
 
-1. 
+1. The **User Management** tile shows that there are 2 users that you can see. Click on the tile to see the list of users. 
+
+  <br><img src="/exercises/ex4/images/UserManagementTile_Unrestricted.png" width="70%">
 
 ## Exercise 4.7 Restrict the authorization policy
 
+1. Go to **Applications & Resources** --> **Applications**
+
+  <br><img src="/exercises/ex4/images/ApplicationsFromUserManagement.png" width="70%">
+
+2. Select the system application **Administration Console** , which represents the administration console of SAP Cloud Identity services.
+
+  <br><img src="/exercises/ex4/images/Applications.png" width="70%">
+
+3. Open the tab **Authorization Policies**
+  
+  <br><img src="/exercises/ex4/images/AdminConsoleApp.png" width="70%">
+
+4. In the list of policies, click on the policy **READ_USERS_BESTRUN**
+
+  <br><img src="/exercises/ex4/images/ChooseBestrunPolicy.png" width="70%">
+
+5. Open the **Rules** tab for the policy and then click the **Edit** button
+
+  <br><img src="/exercises/ex4/images/BestrunPolicyEdit.png" width="70%">
+  
 6. Click on the **+** icon to add a new restriction
 
   <br><img src="/exercises/ex4/images/AddNewRestriction.png" width="70%">
