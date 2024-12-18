@@ -135,14 +135,14 @@ You have now created an authorization policy that gives READ access to user acco
 
 ## Exercise 4.8 Validate that you can only see the allowed user accounts
 
-1. XYZ
+1. The tile **User Management** shows the value 1. So out of the 2 users that are stored in the user management, you only have access to 1. Click on the tile.
 
  <br><img src="/exercises/ex4/images/UserManagementTile_Restricted.png" width="70%">
 
-2. XYZ
+2. You can only see the user account with the company name **Bestrun**, due to the restriction that you applied to the access policy. 
 
 <br><img src="/exercises/ex4/images/RestrictedListOfUsers.png" width="70%">
 
 ## Summary
 
-XYZ
+In this exercise you learned how to switch from classic, role-based authorizations in SAP Cloud Identity to the new policy-based authorizations. You defined a new access policy and applied restrictions to it. When assigning this policy to the administrator user, you saw how the access of the administrator is limited based on the policy definition. 
