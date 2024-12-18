@@ -47,9 +47,15 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/SavePolicyWithoutRestriction.png" width="70%">
 
-You have now created an authorization policy that gives READ access to user accounts. 
+7. Go to the **Assignments** tab of the policy, click the button with the 3 dots and choose **Add**
 
-## Exercise 4.3 Assign authorization policy to your user
+  <br><img src="/exercises/ex4/images/AssignPolicyToUser.png" width="70%">
+
+8. Select your user and click the **Add** button.
+
+  <br><img src="/exercises/ex4/images/AssignPolicyToSelectedUser.png" width="70%">
+
+You have now created an authorization policy that gives READ access to user accounts, and assigned this policy to your administrator user.
 
 ## Exercise 4.4 Create another user account to be used for testing
 
@@ -69,7 +75,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/AddCompany.png" width="70%">
 
-## Exercise 4.5 Remove classic authorization for reading users  
+## Exercise 4.5 Remove classic authorization for reading users
 
 5. Go to **Users & Authorizations** --> **Administrators**
 
@@ -83,7 +89,9 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/Home.png" width="70%">
 
-## Exercise 4.6 Validate that you can still read all user records
+## Exercise 4.6 Validate that you can still see all user records
+
+1. 
 
 ## Exercise 4.7 Restrict the authorization policy
 
