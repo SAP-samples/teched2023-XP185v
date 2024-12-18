@@ -1,10 +1,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-XP264)
 
-#XP185v  - Get Hands-On Security Recommendations for Your SAP BTP Environment
+# Get Hands-On Security Recommendations for Your SAP BTP Environment
 
 ## Description
 
-This repository contains the material for the virtual SAP TechEd 2023 session called XP185v  - Get Hands-On Security Recommendations for Your SAP BTP Environment.  
+This repository contains the material for the **Get Hands-On Security Recommendations for Your SAP BTP Environment** session.  
 
 ## Overview
 
@@ -40,10 +40,11 @@ Now you are ready to start the exercises.
     - [Exercise 2.2 - Defining a custom password policy](exercises/ex2#exercise-22---Defining-a-custom-password-policy)
     - [Exercise 2.3 - Keep public access to applications by self-registration disabled](exercises/ex2#exercise-23---Keep-public-access-to-applications-by-self---registration-disabled)
     - [Exercise 2.4 - Keep Social Sign-On disabled](exercises/ex2#exercise-24---Keep-Social-Sign---On-disabled)
-- [Exercise 3 -Security Recommendations regarding the Audit Log](exercises/ex3/)
+- [Exercise 3 - Security Recommendations regarding the Audit Log](exercises/ex3/)
     - [Exercise 3.1 - Subscribe to the SAP Audit Log Viewer service](exercises/ex3/README.md#Exercise-31---Subscribe-to-the-SAP-Audit-Log-Viewer-service)
     - [Exercise 3.2 - Configure the SAP Audit Log Viewer service](exercises/ex3/README.md#Exercise-32---configure-the-sap-audit-log-viewer-service)
     - [Exercise 3.3 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex3/README.md#exercise-32---check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
+- [Exercise 4 - Managing administrative authorizations in SAP Cloud Identity](exercises/ex4/)
 
 
 
