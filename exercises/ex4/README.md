@@ -129,4 +129,8 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/SetRestrictionValue.png" width="70%">
 
+9. Go to the **Home** tab.
+
+  <br><img src="/exercises/ex4/images/HomeFromPolicy.png" width="70%">
+
 ## Exercise 4.8 Validate that you can only see the allowed user accounts
