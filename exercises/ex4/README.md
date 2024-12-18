@@ -1,7 +1,7 @@
 # Exercise 4 - Managing administrative authorizations in SAP Cloud Identity
 
-SAP Cloud Identity offers a wealth of functionality in the space of Identity and Access Management (IAM). Especially in larger organizations, it may not be possible for any individual to manage all IAM processes available in the cockpit, or be responsible for the IAM-related configuration of all end users in the organization. A solution for this problem is to share the work among multiple persons. However, by default, everybody working as an administrator in the SAP Cloud Identity cockpit has very broad authorizations. It may be a security risk if individuals that are meant to perform limited administrative tasks have full administrative access way beyond their area of responsibility. 
-In this execise you will learn how to implement fine grained administrative authorizations that allow you to give limited access when delgating administrative tasks to others.  
+SAP Cloud Identity offers a wealth of functionality in the space of Identity and Access Management (IAM). Especially in larger organizations, it may not be possible for any individual to manage all IAM processes available in the cockpit or be responsible for the IAM-related configuration of all end users in the organization. A solution for this problem is to share the work among multiple persons. However, by default, everybody working as an administrator in the SAP Cloud Identity cockpit has very broad authorizations. It may be a security risk if individuals that are meant to perform limited administrative tasks have full administrative access way beyond their area of responsibility. 
+In this exercise you will learn how to implement fine grained administrative authorizations that allow you to give limited access when delegating administrative tasks to others.  
 
 ## Exercise 4.1 Enable policy-based authorizations in SAP Cloud Identity
 
@@ -17,17 +17,17 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/PolicyBasedAuthZMenu.png" width="70%">
 
-4. Enable policy-based authorizations
+4. Enable policy-based authorizations.
 
   <br><img src="/exercises/ex4/images/EnablePolicyBasedAuthZ.png" width="70%">
 
 ## Exercise 4.2 Create an authorizations policy for reading users
 
-1. Open the menu and go to the **Applications** user interface
+1. Open the menu and go to the **Applications** user interface.
 
   <br><img src="/exercises/ex4/images/ApplicationsMenu.png" width="70%">
 
-2. Select the system application **Administration Console** , which represents the administration console of SAP Cloud Identity services.
+2. Select the system application **Administration Console**, which represents the administration console of SAP Cloud Identity services.
 
   <br><img src="/exercises/ex4/images/Applications.png" width="70%">
 
@@ -43,11 +43,11 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/CreatePolicy.png" width="70%">
 
-6. Save the newly created policy
+6. Save the newly created policy.
 
   <br><img src="/exercises/ex4/images/SavePolicyWithoutRestriction.png" width="70%">
 
-7. Go to the **Assignments** tab of the policy, click the button with the 3 dots and choose **Add**
+7. Go to the **Assignments** tab of the policy, click the button with the 3 dots and choose **Add**.
 
   <br><img src="/exercises/ex4/images/AssignPolicyToUser.png" width="70%">
 
@@ -55,11 +55,11 @@ In this execise you will learn how to implement fine grained administrative auth
 
   <br><img src="/exercises/ex4/images/AssignPolicyToSelectedUser.png" width="70%">
 
-You have now created an authorization policy that gives READ access to user accounts, and assigned this policy to your administrator user.
+You have now created an authorization policy that gives READ access to user accounts and assigned this policy to your administrator user.
 
 ## Exercise 4.4 Create another user account to be used for testing
 
-1. Go to the User Management page
+1. Go to the User Management page.
 
   <br><img src="/exercises/ex4/images/StartUserManagement.png" width="70%">
 
@@ -67,7 +67,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/AddUser.png" width="70%">
 
-3. Click on the new user account in the list and then click on the **Edit** button
+3. Click on the new user account in the list and then click on the **Edit** button.
 
   <br><img src="/exercises/ex4/images/EditUser.png" width="70%">
 
@@ -77,7 +77,7 @@ You have now created an authorization policy that gives READ access to user acco
 
 ## Exercise 4.5 Remove classic authorization for reading users
 
-5. Go to **Users & Authorizations** --> **Administrators**
+5. Go to **Users & Authorizations** --> **Administrators**.
 
   <br><img src="/exercises/ex4/images/AdministratorsConfigFromUsers.png" width="70%">
 
@@ -85,7 +85,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/RemoveReadManageUsersAuthZ.png" width="70%">
 
-7. Go to the **Home** tab
+7. Go to the **Home** tab.
 
   <br><img src="/exercises/ex4/images/Home.png" width="70%">
 
@@ -97,11 +97,11 @@ You have now created an authorization policy that gives READ access to user acco
 
 ## Exercise 4.7 Restrict the authorization policy
 
-1. Go to **Applications & Resources** --> **Applications**
+1. Go to **Applications & Resources** --> **Applications**.
 
   <br><img src="/exercises/ex4/images/ApplicationsFromUserManagement.png" width="70%">
 
-2. Select the system application **Administration Console** , which represents the administration console of SAP Cloud Identity services.
+2. Select the system application **Administration Console**, which represents the administration console of SAP Cloud Identity services.
 
   <br><img src="/exercises/ex4/images/Applications.png" width="70%">
 
@@ -113,15 +113,15 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/ChooseBestrunPolicy.png" width="70%">
 
-5. Open the **Rules** tab for the policy and then click the **Edit** button
+5. Open the **Rules** tab for the policy and then click the **Edit** button.
 
   <br><img src="/exercises/ex4/images/BestrunPolicyEdit.png" width="70%">
   
-6. Click on the **+** icon to add a new restriction
+6. Click on the **+** icon to add a new restriction.
 
   <br><img src="/exercises/ex4/images/AddNewRestriction.png" width="70%">
 
-7. Click on the **+** icon and select **Value**
+7. Click on the **+** icon and select **Value**.
 
   <br><img src="/exercises/ex4/images/ConfigureNewRestriction.png" width="70%">
 
