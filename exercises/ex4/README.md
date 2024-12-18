@@ -56,6 +56,33 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/StartUserManagement.png" width="70%">
 
+2. Click the **Add** button and enter the details for a new user. Then click the **Add** button on the popup dialog.
+
+  <br><img src="/exercises/ex4/images/AddUser.png" width="70%">
+
+3. Click on the new user account in the list and then click on the **Edit** button
+
+  <br><img src="/exercises/ex4/images/EditUser.png" width="70%">
+
+4. Scroll down to the **Company Information** section and enter the company name **Bestrun**. Then click the **Save** button. 
+
+  <br><img src="/exercises/ex4/images/AddCompany.png" width="70%">
+
+5. Go to **Users & Authorizations** --> **Administrators**
+
+  <br><img src="/exercises/ex4/images/AdministratorsConfigFromUsers.png" width="70%">
+
+6. Select your administrator user and disable the authorizations **Manage Users** and **Read Users**. Then click the **Save** button.
+
+  <br><img src="/exercises/ex4/images/RemoveReadManageUsersAuthZ.png" width="70%">
+
+7. Go to the **Home** tab
+
+  <br><img src="/exercises/ex4/images/Home.png" width="70%">
+
+8. As you can see, the **User Management** tile is no longer available as you have no authorizations to access it.
+
+  <br><img src="/exercises/ex4/images/UserManagementDisabled.png" width="70%">
 
 ## Exercise 4.4 Add authorization policy to your user
 
