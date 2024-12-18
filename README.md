@@ -8,22 +8,21 @@ This repository contains the material for the **Get Hands-On Security Recommenda
 
 ## Overview
 
-In this session attendees will learn about the security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform. It is a list with SAP recommendations for the configuration of SAP BTP services to help customers meet their compliance goals and secure their business.
+In this session attendees will learn about the security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform. It is a list of SAP recommendations for the configuration of SAP BTP services to help customers meet their compliance goals and secure their business.
 
 ## Requirements
 
 The requirements to follow the exercises in this repository are active Trial Accounts for SAP BTP and for the SAP Cloud Identity Services. 
 
-**First you have to get your SAP BTP Trial Account. Follow the instructions:** 
+**First you have to get your SAP BTP Trial Account. Follow these instructions:** 
 [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 
-**Second task is to activate your SAP Cloud Identity Services Trial. Follow the instructions in this blog:** 
+**Then activate your SAP Cloud Identity Services Trial. Follow the instructions in this blog:** 
 [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
 
-💡You should have access to your mailbox, which you used while registering for your BTP trial account in order to activate your Cloud Identity Services trial account.
+💡You should have access to your mailbox, which you used while registering for your BTP trial account in order to activate your SAP Cloud Identity Services trial account.
 
-**Third task is to install on your mobile device a time-based authentication application (such as Google Authenticator or Microsoft Authenticator).**
-
+**Finally, install a time-based authentication application (such as Google Authenticator or Microsoft Authenticator) on your mobile device.**
 
 Now you are ready to start the exercises.
 
@@ -47,7 +46,6 @@ Now you are ready to start the exercises.
 - [Exercise 4 - Managing administrative authorizations in SAP Cloud Identity](exercises/ex4/)
 
 
-
 **IMPORTANT**
 
 Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets (images, folders, etc) from the exercises folder. 
@@ -63,4 +61,4 @@ Please read the [SAP Open-Source Code of Conduct](https://github.com/SAP-samples
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
-Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
