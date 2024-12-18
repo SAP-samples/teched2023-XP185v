@@ -8,7 +8,7 @@ This repository contains the material for the **Get Hands-On Security Recommenda
 
 ## Overview
 
-In this session attendees will learn about the security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform. It is a list of SAP recommendations for the configuration of SAP BTP services to help customers meet their compliance goals and secure their business.
+In this session attendees will learn about the security recommendations for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform. These recommendations for the configuration of SAP BTP services help customers meet their compliance goals and secure their business.
 
 ## Requirements
 
