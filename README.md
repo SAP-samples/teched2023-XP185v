@@ -22,7 +22,7 @@ The requirements to follow the exercises in this repository are active Trial Acc
 
 💡You should have access to your mailbox, which you used while registering for your BTP trial account in order to activate your SAP Cloud Identity Services trial account.
 
-**Finally, install a time-based authentication application (such as Google Authenticator or Microsoft Authenticator) on your mobile device.**
+**Finally, install a time-based onbe-time-password (TOTP) authentication application (such as Google Authenticator or Microsoft Authenticator) on your mobile device.**
 
 Now you are ready to start the exercises.
 
