@@ -49,7 +49,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
 8. In the **SCI administration console -> Applications & Resources -> Applications** you will see the trust configuration that was established by your BTP trial account. It is called **SAP BTP subaccount trial**.
 
-  <br><img src="/exercises/ex0/images/TrialSubaccountApp.png" width="70%"> 
+  <br><img src="/exercises/ex0/images/TrialSubaccountApp2.png" width="70%"> 
 
   Applications you deploy in your BTP subaccount can now delegate authentication to the SCI tenant you just created. And in the **SCI admin console** you may configure the various options for authentication and multi-factor authentication.
 
