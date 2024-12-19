@@ -41,7 +41,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
    Navigate in your Subaccount to **Instance and Subscriptions**. Click on the tile next to the subscribed application **Cloud Identity Services** which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services Trial Account Cockpit. 
 
-  <br><img src="/exercises/ex0/images/CIS_Link.png" width="70%">
+  <br><img src="/exercises/ex0/images/CIS_Link2.png" width="70%">
 
 7. **Bookmark** the link for fast and quick access to the **SCI cockpit**.
    
