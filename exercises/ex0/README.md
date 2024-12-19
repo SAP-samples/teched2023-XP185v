@@ -27,7 +27,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
 4. Check if the Cloud Foundry runtime is enabled in the subaccount. If it is **not** enabled, click on **Enable Cloud Foundry**. This may take some seconds. This page displays the current state of the subaccount. You can manage your subscriptions and jump into the different runtime environments. It also shows you fundamental information of the Cloud Foundry environment, such as the API endpoint and the available spaces.
 
-  <br><img src="/exercises/ex0/images/SubAccount.png" width="70%">
+  <br><img src="/exercises/ex0/images/SubAccount2.png" width="70%">
 
 5. Check the Trust Configuration for application users.
 
