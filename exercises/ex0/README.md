@@ -19,15 +19,15 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
 3. Navigate to the subaccount by clicking on the tile.
 
-  <br><img src="/exercises/ex1/images/GlobalAccount.png" width="70%">
+  <br><img src="/exercises/ex0/images/GlobalAccount.png" width="70%">
 
   Note: If the tile is disabled then you may have to add yourself as subaccount administrator.
 
-  <br><img src="/exercises/ex1/images/AddMeAsAdmin.png" width="70%">
+  <br><img src="/exercises/ex0/images/AddMeAsAdmin.png" width="70%">
 
 4. Check if the Cloud Foundry runtime is enabled in the subaccount. If it is **not** enabled, click on **Enable Cloud Foundry**. This may take some seconds. This page displays the current state of the subaccount. You can manage your subscriptions and jump into the different runtime environments. It also shows you fundamental information of the Cloud Foundry environment, such as the API endpoint and the available spaces.
 
-  <br><img src="/exercises/ex1/images/SubAccount.png" width="70%">
+  <br><img src="/exercises/ex0/images/SubAccount.png" width="70%">
 
 5. Check the Trust Configuration for application users.
 
@@ -35,21 +35,21 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
    Check if the Custom Identity Provider for applications is configured. If not go back to the preparations and follow the blog [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/) on how to configure it.
 
-  <br><img src="/exercises/ex1/images/TrustConfig.png" width="70%">
+  <br><img src="/exercises/ex0/images/TrustConfig.png" width="70%">
 
 6. Logon to your personal Identity Provider - SCI Cockpit (SCI - SAP Cloud Identity service).
 
    Navigate in your Subaccount to **Instance and Subscriptions**. Click on the tile next to the subscribed application **Cloud Identity Services** which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services Trial Account Cockpit. 
 
-  <br><img src="/exercises/ex1/images/CIS_Link.png" width="70%">
+  <br><img src="/exercises/ex0/images/CIS_Link.png" width="70%">
 
 7. **Bookmark** the link for fast and quick access to the **SCI cockpit**.
    
-  <br><img src="/exercises/ex1/images/SCI_Cockpit.png" width="70%"> 
+  <br><img src="/exercises/ex0/images/SCI_Cockpit.png" width="70%"> 
 
 8. In the **SCI administration console -> Applications & Resources -> Applications** you will see the trust configuration that was established by your BTP trial account. It is called **XSUAA_trial**.
 
-  <br><img src="/exercises/ex1/images/SCI_XSUAA_trial.png" width="70%"> 
+  <br><img src="/exercises/ex0/images/SCI_XSUAA_trial.png" width="70%"> 
 
   Applications you deploy in your BTP subaccount can now delegate authentication to the SCI tenant you just created. And in the **SCI admin console** you may configure the various options for authentication and multi-factor authentication.
 
