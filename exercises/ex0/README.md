@@ -17,11 +17,17 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 2. You will see one main button on the welcome screen of the SAP BTP Cockpit. Click on **Go To Your Trial Account** to navigate to your global account.  
    **Bookmark** the link for fast and quick access to the **BTP cockpit**.
 
-3. Navigate to the subaccount and check if the Cloud Foundry runtime is enabled. If it is **not** enabled, click on **Enable Cloud Foundry**. This may take some seconds. This page displays the current state of the subaccount. You can manage your subscriptions and jump into the different runtime environments. It also shows you fundamental information of the Cloud Foundry environment, such as the API endpoint and the available spaces.
+3. Navigate to the subaccount by clicking on the tile.
 
-<br>![](/exercises/ex0/images/audit0.png)
+  <br>![](/exercises/ex0/images/GlobalAccount.png)
 
-<br>![](/exercises/ex0/images/Subaccount%20Overview.png)
+  Note: If the tile is disabled then you may have to add yourself as subaccount administrator.
+
+  <br>![](/exercises/ex0/images/AddMeAsAdmin.png)
+
+4. Check if the Cloud Foundry runtime is enabled in the subaccount. If it is **not** enabled, click on **Enable Cloud Foundry**. This may take some seconds. This page displays the current state of the subaccount. You can manage your subscriptions and jump into the different runtime environments. It also shows you fundamental information of the Cloud Foundry environment, such as the API endpoint and the available spaces.
+
+<br>![](/exercises/ex0/images/SubAccount.png)
 
 4. Check the Trust Configuration for application users.
 
@@ -29,7 +35,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
    Check if the Custom Identity Provider for applications is configured. If not go back to the preparations and follow the blog [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/) on how to configure it.
 
-<br>![](/exercises/ex0/images/Subaccoount1_TrustConfiguration.png)
+<br>![](/exercises/ex0/images/TrustConfig.png)
 
 5. Logon to your personal Identity Provider - SCI Cockpit (SCI - SAP Cloud Identity service).
 
