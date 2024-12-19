@@ -31,35 +31,33 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/BoosterTileApps.png" width="70%">
 
-5. Now a wizard opens and you follow the wizard and click next after each entry.
+5. An overview page provides details on the booster. Click on **Start**.
 
-6. Check prerequisites
+<br><img src="/exercises/ex1/images/WizardOverview.png" width="70%">
 
-<br><img src="/exercises/ex1/images/booster2.png" width="70%">
+6. Now a wizard opens. On the first page, the prerequisites are checked. Click on **Next**.
 
-7. Select Scenario - select your subaccount
+<br><img src="/exercises/ex1/images/WizardStep1.png" width="70%">
 
-<br><img src="/exercises/ex1/images/booster3.png" width="70%">
+7. Select the second option, **Select subaccount** and click on **Next**.
 
-8. Configure subaccount - enter your trial subaccount
+<br><img src="/exercises/ex1/images/WizardStep2.png" width="70%">
 
-<br><img src="/exercises/ex1/images/Booster4.png" width="70%">
+8. You can leave the default values in place. Click on **Next**.
 
-9. Add Users - enter your email address for Administrators and Developers
+<br><img src="/exercises/ex1/images/WizardStep3.png" width="70%">
 
-<br><img src="/exercises/ex1/images/Booster5.png" width="70%">
+9. Enter your email address for **Administrators** and **Developers**. Then click on **Next**.
 
-10. Review your entries - Finish
+<br><img src="/exercises/ex1/images/WizardStep4.png" width="70%">
 
-<br><img src="/exercises/ex1/images/booster6.png" width="70%">
+10. Review your entries and click on **Finish**.
 
-11. Progressing - this takes a bit
+<br><img src="/exercises/ex1/images/WizardStep5.png" width="70%">
 
-<br><img src="/exercises/ex1/images/Booster 7.png" width="70%">
+11. **Success!**. The booster has created the SAP Buid APps setup. Click the link to navigate to the subaccount.
 
-12. **Success** - Navigate to the Subaccount 
-
-<br><img src="/exercises/ex1/images/Boostersuccess.png" width="70%">
+<br><img src="/exercises/ex1/images/WizardStep6.png" width="70%">
 
 13. Go to **Instance and Subscriptions** in your Subaccount - Click on the tile to open **SAP Build Apps**
 
