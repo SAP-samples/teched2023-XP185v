@@ -51,7 +51,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
 
   Applications you deploy in your BTP subaccount can now delegate authentication to the SCI tenant you just created. And in the **SCI admin console** you may configure the various options for authentication and multi-factor authentication.
 
- 9.  Logout at the **SCI administrative console**.
+ 9.  Log out of the **SCI administrative console**.
 
   <br><img src="/exercises/ex0/images/SCI_Logout.png" width="70%"> 
 
