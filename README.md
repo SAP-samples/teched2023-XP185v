@@ -12,12 +12,12 @@ In this session attendees will learn about the security recommendations for BTP 
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are active Trial Accounts for SAP BTP and for the SAP Cloud Identity Services. 
+The requirements to follow the exercises in this repository are active trial accounts for SAP BTP and for the SAP Cloud Identity Services. 
 
-**First you have to get your SAP BTP Trial Account. Follow these instructions:** 
+**First you have to get your SAP BTP trial account. Follow these instructions:** 
 [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 
-**Then activate your SAP Cloud Identity Services Trial. Follow the instructions in this blog:** 
+**Then activate your SAP Cloud Identity Services trial. Follow the instructions in this blog:** 
 [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
 
 💡You should have access to your mailbox, which you used while registering for your BTP trial account in order to activate your SAP Cloud Identity Services trial account.
