@@ -45,6 +45,12 @@ Now you are ready to start the exercises.
     - [Exercise 3.3 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex3/README.md#exercise-32---check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
 - [Exercise 4 - Managing administrative authorizations in SAP Cloud Identity](exercises/ex4/)
     - [Exercise 4.1 - Enable policy-based authorizations in SAP Cloud Identity](exercises/ex4/README.md#exercise-41-enable-policy-based-authorizations-in-sap-cloud-identity)
+    - [Exercise 4.2 - Create an authorization policy for reading users](exercises/ex4/README.md#exercise-42-create-an-authorization-policy-for-reading-users)
+    - [Exercise 4.3 - Create another user account to be used for testing](exercises/ex4/README.md#exercise-43-create-another-user-account-to-be-used-for-testing)
+    - [Exercise 4.4 - Remove classic authorization for reading users](exercises/ex4/README.md#exercise-44-remove-classic-authorization-for-reading-users)
+    - [Exercise 4.5 - alidate that you can still see all user records](exercises/ex4/README.md#exercise-45-validate-that-you-can-still-see-all-user-records)
+    - [Exercise 4.6 - Restrict the authorization policy](exercises/ex4/README.md#exercise-46-restrict-the-authorization-policy)
+    - [Exercise 4.7 - Validate that you can only see the allowed user accounts](exercises/ex4/README.md#exercise-47-validate-that-you-can-only-see-the-allowed-user-accounts)
 
 
 **IMPORTANT**
