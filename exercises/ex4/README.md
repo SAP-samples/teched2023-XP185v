@@ -89,7 +89,7 @@ You have now created an authorization policy that gives READ access to user acco
 
 7. Go to the **Home** tab.
 
-  <br><img src="/exercises/ex4/images/Home.png" width="70%">
+  <br><img src="/exercises/ex4/images/Home2.png" width="70%">
 
 ## Exercise 4.6 Validate that you can still see all user records
 
