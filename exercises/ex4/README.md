@@ -97,6 +97,8 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/UserManagementTile_Unrestricted.png" width="70%">
 
+  As the **READ_USERS_BESTRUN** policy does not have any restrictions, you still have access to all user records.
+
 ## Exercise 4.7 Restrict the authorization policy
 
 1. Go to **Applications & Resources** --> **Applications**.
