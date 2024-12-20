@@ -23,9 +23,9 @@ In this exercise you will learn how to implement fine grained administrative aut
 
   SAP Cloud Identity now evaluates policy-based authorizations in addition to the role-based authorizations that are used by default.
 
-## Exercise 4.2 Create an authorizations policy for reading users
+## Exercise 4.2 Create an authorization policy for reading users
 
-1. Open the menu and go to the **Applications** user interface.
+1. Open the **Applications & Resources** menu and go to the **Applications** user interface.
 
   <br><img src="/exercises/ex4/images/ApplicationsMenu.png" width="70%">
 
@@ -33,7 +33,7 @@ In this exercise you will learn how to implement fine grained administrative aut
 
   <br><img src="/exercises/ex4/images/Applications.png" width="70%">
 
-3. Open the tab **Authorization Policies**
+3. Open the tab **Authorization Policies**.
   
   <br><img src="/exercises/ex4/images/AdminConsoleApp.png" width="70%">
 
