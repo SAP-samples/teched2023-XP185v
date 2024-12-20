@@ -1,14 +1,14 @@
 # Getting started
 
-After you did activate your Trial Account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity (SCI) Trial with access to the SAP Cloud Identity administrative console you are set for the next steps.
+After you have activated your trial account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity (SCI) trial with access to the SAP Cloud Identity administrative console you are set for the next steps.
 
-We can expect that you did create a **Trial subaccount** in your SAP BTP Trial Account cockpit.
+We expect that you have created a **Trial subaccount** in your SAP BTP Trial Account cockpit.
 
-We also expect that you did enable the **Cloud Foundry Environment**.
+We also expect that you have enabled the **Cloud Foundry Environment**.
 
-Finally, you have installed on your mobile device a time-based authentication application (such as Google Authenticator or Microsoft Authenticator).
+Finally, you have installed on your mobile device a time-based one-time password (TOTP) authentication application (such as Google Authenticator or Microsoft Authenticator).
 
-Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you did already establish the Trust configuration in your BTP Trial Subaccount, which adds the Trial Identity Provider for applications to enable users from your Trial Identity Provider to log on to applications consumed in this subaccount.
+Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you have already established the trust configuration in your BTP Trial Subaccount, which adds the Trial Identity Provider for applications to enable users from your Trial Identity Provider to log on to applications consumed in this subaccount.
 
 ## Result of the preparation
 
