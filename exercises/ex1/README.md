@@ -69,7 +69,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 14.  A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity User and his Password.
 
-<br><img src="/exercises/ex1/images/IdPLogonPage.png" width="50%"> 
+<br><img src="/exercises/ex1/images/IdPLogonPage.png" width="70%"> 
 
 15. The Authorization should be successful as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the **SAP Build App** application.
 
