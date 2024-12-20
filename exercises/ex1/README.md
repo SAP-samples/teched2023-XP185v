@@ -1,17 +1,17 @@
 # Exercise 1 - Enable Multi-Factor Authentication for applications
 
-In this exercise, we will show how to enable Multi-Factor Authentication (MFA) using Time-based one-time password (TOTP) for Application Users. In general we recommend to configure Risk-Based Authentication methods, such as Multi-Factor Authentication, for the access to the **SAP BTP Cockpit** and the **SCI administrative console**. In the trial version this is not possible, because there is no possibility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
+In this exercise, we will show you how to enable Multi-Factor Authentication (MFA) using Time-based One-Time Passwords (TOTP) for application users. In general, we recommend to configure risk-based authentication methods, such as Multi-Factor Authentication, also for the access to the **SAP BTP Cockpit** and the **SCI administrative console**. In the trial version this is not possible, because there is no possibility to set up a trust configuration to your BTP account on global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
 The configuration in the **SCI administrative console** is the same, only for a different application. You will use **SAP Build Apps** as application to configure the risk-based authentication.
 
 :bulb: **What is Multi-Factor Authentication (MFA)?**
 
 Multi-Factor Authentication can be described as “An authentication mechanism that requires more than one distinct authentication factor for successful authentication”.
-When a user authenticates, the user must provide valid credentials consisting of either one or multiple factors. It uses variety of factors and information, to verify the user identity. Many earlier systems use one factor, like a username/ password also called as basic authentication.
-Now to strengthen the authentication process we use MFA which acts as another layer of security for users and reduce the risk of unauthorized access.
+When a user authenticates, the user must provide valid credentials, consisting of either one or multiple factors. It uses a variety of factors and information to verify the user identity. Many earlier systems use one factor, like username/ password, which is also called basic authentication.
+Today, we strengthen the authentication process by using MFA, which acts as another layer of security for users and reduces the risk of unauthorized access.
 
-:bulb:**What is Time-based One-Time Password (TOTP)?**
+:bulb: **What is a Time-based One-Time Password (TOTP)?**
 
-A Time-based One-Time Password (TOTP) is a numerical code which is generated with a standard algorithm that uses the current time and a key as input. It is user friendly and available offline in a generator application of the user’s choice- usually on a mobile device. It appears as six-digit numbers that regenerate every 30 seconds.
+A Time-based One-Time Password (TOTP) is a numerical code which is generated with a standard algorithm that uses the current time and a key as input. It is user friendly and available offline in a generator application of the user’s choice, usually on a mobile device. It appears as six-digit numbers that are updated every 30 seconds.
 
 
 # Relevant Security Recommendations
