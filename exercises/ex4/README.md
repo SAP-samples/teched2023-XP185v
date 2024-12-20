@@ -109,11 +109,11 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/Applications.png" width="70%">
 
-3. Open the tab **Authorization Policies**
+3. Open the tab **Authorization Policies**.
   
   <br><img src="/exercises/ex4/images/AdminConsoleApp.png" width="70%">
 
-4. In the list of policies, click on the policy **READ_USERS_BESTRUN**
+4. In the list of policies, click on the policy **READ_USERS_BESTRUN**.
 
   <br><img src="/exercises/ex4/images/ChooseBestrunPolicy.png" width="70%">
 
@@ -125,7 +125,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/AddNewRestriction.png" width="70%">
 
-7. Click on the **+** icon and select **Value**.
+7. Click on the **+** icon next to the label **RESTRICT** and select **Value**.
 
   <br><img src="/exercises/ex4/images/ConfigureNewRestriction.png" width="70%">
 
