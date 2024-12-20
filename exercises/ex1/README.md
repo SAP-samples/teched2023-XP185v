@@ -118,7 +118,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 9. Change the Default Authentication Rule to **Default Action = Two-Factor Authentication** and **Two-Factor Method = TOTP**. Don´t forget to **save** at the top right of the page the new configuration. Now the access to all applications on your SAP BTP subaccount which use the XSUAAA for authentication require a Time-based One-time Password (TOTP) as second factor.
 
-<br><img src="/exercises/ex1/images/AppConfigRBA_MFA_TOTP" width="70%">
+<br><img src="/exercises/ex1/images/AppConfigRBA_MFA_TOTP.png" width="70%">
 
 Once the configuration is complete, the system prompts the user to select any of the available options after the initial username and password are provided. Next step is to enable the users to use MFA.
 
