@@ -2,13 +2,13 @@
 
 After you have activated your trial account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity (SCI) trial with access to the SAP Cloud Identity administrative console you are set for the next steps.
 
-We expect that you have created a **Trial subaccount** in your SAP BTP trial account cockpit.
+We expect that you have created a **trial subaccount** in your SAP BTP trial account cockpit.
 
 We also expect that you have enabled the **Cloud Foundry Environment**.
 
 Finally, you have installed on your mobile device a time-based one-time password (TOTP) authentication application (such as Google Authenticator or Microsoft Authenticator).
 
-Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you have already established the trust configuration in your BTP trial subaccount, which adds the trial identity provider for applications to enable users from your trial identity provider to log on to applications consumed in this subaccount.
+Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you have already established the trust configuration in your BTP trial subaccount, which adds the trial identity provider for applications to enable users from your trial identity provider to log on to applications consumed in this subaccount.
 
 ## Result of the preparation
 
@@ -37,9 +37,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) Trial** you 
 
   <br><img src="/exercises/ex0/images/TrustConfig.png" width="70%">
 
-6. Logon to your personal Identity Provider - SCI Cockpit (SCI - SAP Cloud Identity service).
-
-   Navigate in your subaccount to **Instance and Subscriptions**. Click on the tile next to the subscribed application **Cloud Identity Services** which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services trial account cockpit. 
+6. To logon to your personal identity provider, navigate in your subaccount to **Instance and Subscriptions**. Click on the tile next to the subscribed application **Cloud Identity Services**, which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services trial account cockpit. 
 
   <br><img src="/exercises/ex0/images/CIS_Link2.png" width="70%">
 
