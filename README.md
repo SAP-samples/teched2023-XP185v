@@ -44,6 +44,7 @@ Now you are ready to start the exercises.
     - [Exercise 3.2 - Configure the SAP Audit Log Viewer service](exercises/ex3/README.md#Exercise-32---configure-the-sap-audit-log-viewer-service)
     - [Exercise 3.3 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex3/README.md#exercise-32---check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
 - [Exercise 4 - Managing administrative authorizations in SAP Cloud Identity](exercises/ex4/)
+    - [Exercise 4.1 - Enable policy-based authorizations in SAP Cloud Identity](exercises/ex4/README.md#exercise-41-enable-policy-based-authorizations-in-sap-cloud-identity)
 
 
 **IMPORTANT**
