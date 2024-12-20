@@ -59,25 +59,25 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/WizardStep6.png" width="70%">
 
-13. Go to **Instance and Subscriptions** in your Subaccount - Click on the tile to open **SAP Build Apps**
+12. Go to **Instance and Subscriptions** in your Subaccount - Click on the tile to open **SAP Build Apps**
 
-<br><img src="/exercises/ex1/images/openSAPBulidApps.png" width="70%">
+<br><img src="/exercises/ex1/images/BuildAppsLink.png" width="70%">
 
-14. A Logon page opens. Use your **Trial Account Identity Provider** to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity).
+13. A Logon page opens. Use your **Trial Account Identity Provider** to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity).
 
-<br><img src="/exercises/ex1/images/logonSAPBulidApp.png" width="70%">
+<br><img src="/exercises/ex1/images/IdPSelection.png" width="70%">
 
-15.  A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity User and his Password.
+14.  A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity User and his Password.
 
-<br><img src="/exercises/ex1/images/logon_XSUAA_trial.png" width="50%"> 
+<br><img src="/exercises/ex1/images/IdPLogonPage.png" width="50%"> 
 
 15. The Authorization should be successful as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the **SAP Build App** application.
 
-<br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
+<br><img src="/exercises/ex1/images/SAPBuild.png" width="70%">
 
 16. **Sign-out** from SAP Build Apps and close the browser window.
 
-<br><img src="/exercises/ex1/images/SAPBUILDsignout.png" width="70%">
+<br><img src="/exercises/ex1/images/SAPBuildLogout.png" width="70%">
 
 
 ## Exercise 1.2 - Configure Multi Factor Authentication to access SAP Build Apps
@@ -86,19 +86,19 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 1. Logout of the SAP Build application and close the Browser window, if you haven`t done already.
 
-<br><img src="/exercises/ex1/images/Singoutsapbuild.png" width="70%">
+<br><img src="/exercises/ex1/images/SAPBuildLogout.png" width="70%">
 
 2. Open the **SCI administrative console**, either from your bookmark or from the **BTP cockpit** (In the BTP Cockpit navigate to  -> **Instances and Subscriptions** -> click on the Tile next to Cloud Identity Services).
 
-<br><img src="/exercises/ex1/images/openSCItenant.png" width="70%">
+<br><img src="/exercises/ex1/images/IdPLink.png" width="70%">
 
 3. In the pop-up window Sign-In with your email and password to the **SCI administrative console**.
    
-<br><img src="/exercises/ex1/images/SigninSCITRIAL.png" width="70%">
+<br><img src="/exercises/ex1/images/IdPLogonPageAdminConsole.png" width="70%">
 
 4. In the **SCI administrative console** navigate to **Applications & Resources -> Applications**
 
-<br><img src="/exercises/ex1/images/SCItenantApplications.png" width="70%">
+<br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
 5. On the left side you see Bundled and System Applications. In Bundled Applications we see the Application **XSUAA_trial**. Click on it to see the configuration data of this application.
 
