@@ -149,4 +149,4 @@ You have now created an authorization policy that gives READ access to user acco
 
 ## Summary
 
-In this exercise you learned how to switch from classic, role-based authorizations in SAP Cloud Identity to the new policy-based authorizations. You defined a new access policy and applied restrictions to it. When assigning this policy to the administrator user, you saw how the access of the administrator is limited based on the policy definition. 
+In this exercise you learned how to switch from classic, role-based authorizations in SAP Cloud Identity to the new policy-based authorizations. You defined a new access policy and applied restrictions to it. When assigning this policy to the administrator user, you saw how the access of the administrator is reduced based on the restrictions in the policy definition. 
