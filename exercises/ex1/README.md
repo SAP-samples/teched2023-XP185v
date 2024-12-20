@@ -110,7 +110,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 7. Now you can see the line where **Risk-Based Authentication** can be configured. Click on the little arrow on the right.
 
-<br><img src="/exercises/ex1/images/AppConfigRBAAppConfigRBA_MFA.png" width="70%">
+<br><img src="/exercises/ex1/images/AppConfigRBA.png" width="70%">
 
 8. In the **Risk-Based Authentication** frame you have the possibility to create Authentication Rules and you can see the Default Authentication Rule, which is **Allow**.
 
