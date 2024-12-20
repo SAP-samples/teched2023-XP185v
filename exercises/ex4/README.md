@@ -93,7 +93,7 @@ You have now created an authorization policy that gives READ access to user acco
 
 ## Exercise 4.6 Validate that you can still see all user records
 
-1. The **User Management** tile shows that there are 2 users that you can see. Click on the tile to see the list of users. 
+1. The **User Management** tile shows that there are 2 users that you have access to. Click on the tile to display the list of users. 
 
   <br><img src="/exercises/ex4/images/UserManagementTile_Unrestricted.png" width="70%">
 
