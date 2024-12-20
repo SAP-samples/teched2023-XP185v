@@ -110,11 +110,11 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 7. Now you can see the line where **Risk-Based Authentication** can be configured. Click on the little arrow on the right.
 
-<br><img src="/exercises/ex1/images/AppConfigRBA_MFA.png" width="70%">
+<br><img src="/exercises/ex1/images/AppConfigRBAAppConfigRBA_MFA.png" width="70%">
 
 8. In the **Risk-Based Authentication** frame you have the possibility to create Authentication Rules and you can see the Default Authentication Rule, which is **Allow**.
 
- <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_default.png" width="70%">
+ <br><img src="/exercises/ex1/images/AppConfigRBA_MFA.png" width="70%">
 
 9. Change the Default Authentication Rule to **Default Action = Two-Factor Authentication** and **Two-Factor Method = TOTP**. Don´t forget to **save** at the top right of the page the new configuration. Now the access to all applications on your SAP BTP subaccount which use the XSUAAA for authentication require a Time-based One-time Password (TOTP) as second factor.
 
