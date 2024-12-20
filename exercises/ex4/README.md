@@ -13,13 +13,15 @@ In this exercise you will learn how to implement fine grained administrative aut
 
   <br><img src="/exercises/ex4/images/TenantSettings.png" width="70%">
 
-3. Open the tab **Policy-Based Authorizations**
+3. Open the tab **Policy-Based Authorizations**.
 
   <br><img src="/exercises/ex4/images/PolicyBasedAuthZMenu.png" width="70%">
 
 4. Enable policy-based authorizations.
 
   <br><img src="/exercises/ex4/images/EnablePolicyBasedAuthZ.png" width="70%">
+
+  SAP Cloud Identity now evaluates policy-based authorizations in addition to the role-based authorizations that are used by default.
 
 ## Exercise 4.2 Create an authorizations policy for reading users
 
