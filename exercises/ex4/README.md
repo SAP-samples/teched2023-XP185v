@@ -7,7 +7,7 @@ In this exercise you will learn how to implement fine grained administrative aut
 
 1. Open the administrative console for SAP Cloud Identity services from your bookmarks or like described in the first exercise.
 
-  <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
+  <br><img src="/exercises/ex0/images/SCI_Cockpit.png" width="70%">
 
 2. Go to **Tenant Settings** in the **Applications & Resources** section.
 
