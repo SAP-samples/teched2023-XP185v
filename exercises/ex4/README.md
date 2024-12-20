@@ -59,7 +59,7 @@ In this exercise you will learn how to implement fine grained administrative aut
 
 You have now created an authorization policy that gives READ access to user accounts and assigned this policy to your administrator user.
 
-## Exercise 4.4 Create another user account to be used for testing
+## Exercise 4.3 Create another user account to be used for testing
 
 1. Go to the User Management page.
 
@@ -77,7 +77,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/AddCompany.png" width="70%">
 
-## Exercise 4.5 Remove classic authorization for reading users
+## Exercise 4.4 Remove classic authorization for reading users
 
 5. Go to **Users & Authorizations** --> **Administrators**.
 
@@ -91,7 +91,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/Home2.png" width="70%">
 
-## Exercise 4.6 Validate that you can still see all user records
+## Exercise 4.5 Validate that you can still see all user records
 
 1. The **User Management** tile shows that there are 2 users that you have access to. Click on the tile to display the list of users. 
 
@@ -99,7 +99,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   As the **READ_USERS_BESTRUN** policy does not have any restrictions, you still have access to all user records.
 
-## Exercise 4.7 Restrict the authorization policy
+## Exercise 4.6 Restrict the authorization policy
 
 1. Go to **Applications & Resources** --> **Applications**.
 
@@ -137,7 +137,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/HomeFromPolicy.png" width="70%">
 
-## Exercise 4.8 Validate that you can only see the allowed user accounts
+## Exercise 4.7 Validate that you can only see the allowed user accounts
 
 1. The tile **User Management** shows the value 1. So out of the 2 users that are stored in the user management, you only have access to 1. Click on the tile.
 
