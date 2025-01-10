@@ -117,13 +117,11 @@ Now the new password policy is active for the application. It sets the rules you
 ## Exercise 2.3 Keep public access to applications by self-registration disabled
 
 For business-to-consumer (public) scenarios, self-registration may be required. By default, self-registration is disabled (value = internal) and can be configured per application.
-Corporate identity lifecycle processes make self-registration undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios. We recommend keeping self-registration disabled (value = internal). Actively manage use cases that require the function.
-
-Procedure
+Corporate identity lifecycle processes make self-registration undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios. We recommend keeping self-registration disabled. Actively manage use cases that require this functionality.
 
 1. Open the **administration console for SAP Cloud Identity Services**.
 
-<br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
+<br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
 2. Under **Applications & Resources**, choose the **Applications** tile.
 
@@ -133,28 +131,25 @@ Procedure
 4. Choose the **Authentication and Access** tab.
 5. Under **Authentication**, choose **User Application Access**.
 
-<br><img src="/exercises/ex2/images/ex2selfreg2.png" width="70%">
+<br><img src="/exercises/ex2/images/User_Application_Access.png" width="70%">
 
-6. Set the radio button for the users you want to allow to log on:
+6. Set the radio button to define which set of users will be able to access the application:
 - Public
 - Internal
 - Private
 
-<br><img src="/exercises/ex2/images/ex2selfreg3.png" width="70%">
+<br><img src="/exercises/ex2/images/Set_User_Application_Access.png" width="70%">
   
-7. Save your selection. The default setting is already **Internal**. Because of that you don´t need to change it.
-8. If the application is updated, the system displays the message "Application - *name of application*" updated.
+7. The default setting is already **Internal**. Because of that you don't need to change it.
 
 ## Exercise 2.4 Keep Social Sign-On disabled
 
 For business-to-consumer (public) scenarios, Social Sign-On may be required. If activated users are allowed to log on with their Apple, Google, Facebook, Twitter, or LinkedIn accounts. By default, Social Sign-On is disabled, set to Off, and can be configured per application.
 Corporate identity lifecycle processes make social sign-on undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios.
 
-Procedure
-
 1. Sign in to the **administration console for SAP Cloud Identity Services**.
 
-<br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
+<br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
 2. Under **Applications & Resources**, choose the **Applications** tile.
 
@@ -164,15 +159,13 @@ Procedure
 4. Choose the **Authentication and Access** tab.
 5. Under **Authentication**, enable or disable **Social Sign-On** using the radio-button. Per default it should be disabled. Because of that you don´t need to change it.
 
-<br><img src="/exercises/ex2/images/ex2sso1.png" width="70%">
-
-6. Once the application has been updated, the system displays the message "Application - *name of application*" updated.
+<br><img src="/exercises/ex2/images/SocialSignOn.png" width="70%">
 
 With Social Sign-On users can log on to the application via one of the social providers. They can see this option on the logon page. Which social identity providers logos appear on the logon page of the application depends on the configurations you have made.
 
 7. Logout at the **SCI administrative console**.
 
-<br><img src="/exercises/ex1/images/SCI_logout.png" width="70%">
+<br><img src="/exercises/ex1/images/SCI_Logout.png" width="70%">
 
 ## Summary
 
