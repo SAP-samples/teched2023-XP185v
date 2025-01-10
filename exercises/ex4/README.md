@@ -1,11 +1,11 @@
-# Exercise 4 - Managing administrative authorizations in SAP Cloud Identity
+# Exercise 4 - Managing administrative authorizations in SAP Cloud Identity Services
 
-SAP Cloud Identity offers a wealth of functionality in the space of Identity and Access Management (IAM). Especially in larger organizations, it may not be possible for any individual to manage all IAM processes available in the cockpit or be responsible for the IAM-related configuration of all end users in the organization. A solution for this problem is to share the work among multiple persons. However, by default, everybody working as an administrator in the SAP Cloud Identity cockpit has very broad authorizations. It may be a security risk if individuals that are meant to perform limited administrative tasks have full administrative access way beyond their area of responsibility. 
+SAP Cloud Identity Services offer a wealth of functionality in the space of Identity and Access Management (IAM). Especially in larger organizations, it may not be possible for any individual to manage all IAM processes available in the cockpit or be responsible for the IAM-related configuration of all end users in the organization. A solution for this problem is to share the work among multiple persons. However, by default, everybody working as an administrator in the SAP Cloud Identity Services cockpit has very broad authorizations. It may be a security risk if individuals that are meant to perform limited administrative tasks have full administrative access way beyond their area of responsibility. 
 In this exercise you will learn how to implement fine grained administrative authorizations that allow you to give limited access when delegating administrative tasks to others.  
 
-## Exercise 4.1 Enable policy-based authorizations in SAP Cloud Identity
+## Exercise 4.1 Enable policy-based authorizations in SAP Cloud Identity Services
 
-1. Open the administrative console for SAP Cloud Identity services from your bookmarks or like described in the first exercise.
+1. Open the administrative console for SAP Cloud Identity Services from your bookmarks or like described in the first exercise.
 
   <br><img src="/exercises/ex0/images/SCI_Cockpit.png" width="70%">
 
@@ -21,7 +21,7 @@ In this exercise you will learn how to implement fine grained administrative aut
 
   <br><img src="/exercises/ex4/images/EnablePolicyBasedAuthZ.png" width="70%">
 
-  SAP Cloud Identity now evaluates policy-based authorizations in addition to the role-based authorizations that are used by default.
+  SAP Cloud Identity Services now evaluate policy-based authorizations in addition to the role-based authorizations that are used by default.
 
 ## Exercise 4.2 Create an authorization policy for reading users
 
@@ -29,7 +29,7 @@ In this exercise you will learn how to implement fine grained administrative aut
 
   <br><img src="/exercises/ex4/images/ApplicationsMenu.png" width="70%">
 
-2. Select the system application **Administration Console**, which represents the administration console of SAP Cloud Identity services.
+2. Select the system application **Administration Console**, which represents the administration console of SAP Cloud Identity Services.
 
   <br><img src="/exercises/ex4/images/Applications.png" width="70%">
 
@@ -105,7 +105,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/ApplicationsFromUserManagement.png" width="70%">
 
-2. Select the system application **Administration Console**, which represents the administration console of SAP Cloud Identity services.
+2. Select the system application **Administration Console**, which represents the administration console of SAP Cloud Identity Services.
 
   <br><img src="/exercises/ex4/images/Applications.png" width="70%">
 
@@ -149,4 +149,4 @@ You have now created an authorization policy that gives READ access to user acco
 
 ## Summary
 
-In this exercise you learned how to switch from classic, role-based authorizations in SAP Cloud Identity to the new policy-based authorizations. You defined a new access policy and applied restrictions to it. When assigning this policy to the administrator user, you saw how the access of the administrator is reduced based on the restrictions in the policy definition. 
+In this exercise you learned how to switch from classic, role-based authorizations in SAP Cloud Identity Services to the new policy-based authorizations. You defined a new access policy and applied restrictions to it. When assigning this policy to the administrator user, you saw how the access of the administrator is reduced based on the restrictions in the policy definition. 
