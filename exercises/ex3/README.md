@@ -36,7 +36,7 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
    
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceViewSubscription.png" width="70%">
 
-7. Under **Instances and Subscriptions**, you can now see the new Application **Audit Log Viewer Service** and the link to the application next to it.
+7. Under **Instances and Subscriptions**, you can now see the new Application **Audit Log Viewer Service** and the **Go to Application** button.
    
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceSubscriptionDetails.png" width="70%">
 
@@ -47,7 +47,7 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
 1. Open the **SAP BTP Cockpit**. 
 
-  <br><img src="/exercises/ex3/IMAGES/audit0.png" width="70%">
+  <br><img src="/exercises/ex0/images/GlobalAccount.png" width="70%">
 
 2. Go to the **trial subaccount** by clicking on the tile.
 
