@@ -23,7 +23,7 @@ It makes sense to review on a regular basis whether the configured users really 
 
 <br><img src="/exercises/ex2/images/Add_User.png" width="70%">
 
-4. A pop-Up window will allow to enter the relevant test user information. You are free to choose the name and email address. Set the status to active. Click on the **+ Add**-button.
+4. A pop-up window will allow you to enter the relevant test user information. You are free to choose the name and email address. Set the status to active. Click on the **+ Add**-button.
 
 <br><img src="/exercises/ex2/images/Add_User_Doe.png" width="70%">
 
@@ -54,15 +54,15 @@ It makes sense to review on a regular basis whether the configured users really 
   
 <br><img src="/exercises/ex2/images/Admin_Access.png" width="70%">
 
-9. Remove the authorizations, which are not needed anymore by the user. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Disable all authorizations. Then click on the **Save**-button.
+11. Remove the authorizations, which are not needed anymore by the user. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Disable all authorizations. Then click on the **Save**-button.
 
 <br><img src="/exercises/ex2/images/Remove_Admin_Access.png" width="70%">
 
-10. Now you have to confirm your changes. Click on the **Okay** button. 
+12. Now you have to confirm your changes. Click on the **OK** button. 
 
 <br><img src="/exercises/ex2/images/Confirm_Remove_Admin_Access.png" width="70%">
 
-11. The only administrator left will be your trial account user. You cannot remove the authorizations of this user completely, as you would otherwise lock yourself out of the administration console. For this reason, the authorization **Manage Tenant Configuration** is greyed out. 
+13. The only administrator left will be your trial account user. You cannot remove the authorizations of this user completely, as you would otherwise lock yourself out of the administration console. For this reason, the authorization **Manage Tenant Configuration** is greyed out. 
 
 <br><img src="/exercises/ex2/images/Own_User_Access.png" width="70%">
 
