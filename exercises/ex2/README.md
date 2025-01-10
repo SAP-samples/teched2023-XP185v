@@ -17,7 +17,7 @@ It makes sense to review on a regular basis whether the configured users really 
 
 <br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
-2. First, we will add a new test user. Navigate to **User & Authorizations -> User Management**
+2. First, we will add a new test user. Navigate to **User & Authorizations --> User Management**
    
 3. Click on the **+ Add**-button.
 
@@ -31,7 +31,7 @@ It makes sense to review on a regular basis whether the configured users really 
 
 <br><img src="/exercises/ex2/images/MenuItem_Admins.png" width="70%">
 
-6. Click on **Add -> User**.
+6. Click on **Add --> User**.
 
 <br><img src="/exercises/ex2/images/Add_Admin_User.png" width="70%">
 
@@ -43,7 +43,7 @@ It makes sense to review on a regular basis whether the configured users really 
 
 <br><img src="/exercises/ex2/images/Enter_Doe_EMail_Confirm.png" width="70%">
 
-9. Click the **Save** button to make the test user an administrator of SAP Cloud Identity services.
+9. Click the **Save** button to make the test user an administrator of SAP Cloud Identity Services.
 
 <br><img src="/exercises/ex2/images/Save_Doe_Admin.png" width="70%">
    
@@ -68,49 +68,51 @@ It makes sense to review on a regular basis whether the configured users really 
 
 ## Exercise 2.2 Defining a custom password policy
 
-By default, SAP Cloud Identity services come with 2 password policies, Standard and Enterprise. In this exercise you will learn how to define your own password policy, based on your company's requirements.
+By default, SAP Cloud Identity Services come with 2 password policies, Standard and Enterprise. In this exercise you will learn how to define your own password policy, based on your company's requirements.
 
-1. Open the **administration console for Cloud Identity Services**. 
+1. Open the **administration console for SAP Cloud Identity Services**. 
 
-<br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
+<br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
 2. Choose the menu item **Applications & Resources --> Password Policies**
 
-<br><img src="/exercises/ex2/images/ex2pp1.png" width="70%">
+<br><img src="/exercises/ex2/images/MenuItem_PasswordPolicies" width="70%">
 
-3. Click on the button **Add Custom Policy**. 
+3. Click on the button **+ Create**. 
 
-<br><img src="/exercises/ex2/images/ex2pp2.png" width="70%">
+<br><img src="/exercises/ex2/images/Create_PasswordPolicy.png" width="70%">
 
 4. The dialog **Custom Password Policy** is displayed.
 
-<br><img src="/exercises/ex2/images/ex2pp3.png" width="70%">
-
 5. Set the policy strength to **3**. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
 
-💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong.
+<br><img src="/exercises/ex2/images/PasswordPolicy_Details.png" width="70%">
 
-6. Decide on the "Password Behavior". Should the user be able to reset an expired password with the old one, or should the user have to perform the password reset process?
+💡 SAP Cloud Identity Services do not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong.
 
-7. Set the "Required character groups count" to 3. SAP Cloud Identity services supports 4 types of character groups, uppercase letters, lowercase letters, numbers, and symbols. With this setting you specific how many different groups need to be part of the password. 
+6. Decide on the "Password Behavior". If the password set by the user does not comply with the policy, should the user be able to set a new password by entering the old one, or should the password reset process be triggered?
 
-8. Fill out the remaining fields of the "Custom Password Policy" dialog and click on the **"Add"**-button. Your new password policy is added to the top of the list as it has the highest strength.
+7. Set the "Required character groups count" to 3. SAP Cloud Identity Services supports 4 types of character groups, uppercase letters, lowercase letters, numbers, and symbols. With this setting you specific how many different groups need to be part of the password. 
 
-<br><img src="/exercises/ex2/images/ex2pp4.png" width="70%">
+8. Fill out the remaining fields of the "Custom Password Policy" dialog and click on the **"+ Create"**-button. Your new password policy is added to the top of the list as it has the highest strength.
+
+<br><img src="/exercises/ex2/images/PasswordPolicies_List.png" width="70%">
 
 Now you know how to create a custom password policy that you can use for additional protection of your applications. We now want to add the password policy to an application. 
 
-9. Navigate to **Applications & Resources -> Applications**. Select one application on the left and choose on the right side **Authentication & Access -> Policies**.
+9. Navigate to **Applications & Resources --> Applications**. Select the **SAP Build Apps** application on the left and choose on the right side **Authentication & Access --> Policies**.
 
-<br><img src="/exercises/ex2/images/addpp1.png" width="70%">
+<br><img src="/exercises/ex2/images/Application_AuthNConfig.png" width="70%">
 
 10. Choose **Password Policy**
 
-<br><img src="/exercises/ex2/images/addpp2.png" width="70%">
+<br><img src="/exercises/ex2/images/Application_PasswordPolicy.png" width="70%">
 
 11. Select your custom password policy. Click on the **Save**-button.
 
-Now the new password policy is active for the application. It sets the rules you defined for the password length and content as well as how users can update and unlock passwords. 
+<br><img src="/exercises/ex2/images/Application_Assign_PasswordPolicy.png" width="70%">
+
+Now the new password policy is active for the application. It sets the rules you defined for the password length and content as well as how users need to update their password. 
 
 ## Exercise 2.3 Keep public access to applications by self-registration disabled
 
@@ -119,7 +121,7 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 
 Procedure
 
-1. Open the **administration console for Cloud Identity Services**.
+1. Open the **administration console for SAP Cloud Identity Services**.
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
