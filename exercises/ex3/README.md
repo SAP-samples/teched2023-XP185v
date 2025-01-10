@@ -18,28 +18,27 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
 2. Go to **Service Marketplace**.
 
- <br><img src="/exercises/ex3/IMAGES/audit02.png" width="70%">
+ <br><img src="/exercises/ex3/IMAGES/ServiceMarketplace.png" width="70%">
 
 3. Enter **audit** in the search field. Select the **Audit Log Viewer Service** and click on it.
 
-<br><img src="/exercises/ex3/IMAGES/audit1.png" width="70%">
+<br><img src="/exercises/ex3/IMAGES/AuditLogServiceTile.png" width="70%">
   
-4. Now subscribe to it. This is done by using the **create**-button in the upper right corner. The **Audit Log Management Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don't need it in this exercise.
+4. Now subscribe to it. This is done by using the **Create**-button in the upper right corner. The **Audit Log Management Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don't need it in this exercise.
 
-<br><img src="/exercises/ex3/IMAGES/audit2.png" width="70%">
+<br><img src="/exercises/ex3/IMAGES/CreateAuditLogService.png" width="70%">
 
-5. A window pops up. Click on the **create**-button.
+5. A window pops up. Click on the **Create**-button.
 
-<br><img src="/exercises/ex3/IMAGES/audit3.png" width="70%">
+<br><img src="/exercises/ex3/IMAGES/CreateAuditLogServiceDialog.png" width="70%">
 
 6. Navigate to **View Subscription**
    
-<br><img src="/exercises/ex3/IMAGES/audit4.png" width="70%">
+<br><img src="/exercises/ex3/IMAGES/AuditLogServiceViewSubscription.png" width="70%">
 
 7. Under **Instances and Subscriptions**, you can now see the new Application **Audit Log Viewer Service** and the link to the application next to it.
    
-<br><img src="/exercises/ex3/IMAGES/audit5.png" width="70%">
-
+<br><img src="/exercises/ex3/IMAGES/AuditLogServiceSubscriptionDetails.png" width="70%">
 
 
 ## Exercise 3.2 Configure the SAP Audit Log Viewer service
@@ -54,23 +53,22 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
 3. Choose the menu item **Security --> Role Collections** and click on the **"+"**-button to create a new role collection.
 
-<br><img src="/exercises/ex3/IMAGES/audit6.png" width="70%">
+<br><img src="/exercises/ex3/IMAGES/CreateRoleCollection.png" width="70%">
 
 4. In the pop-up window enter the role collection name **Audit Log Viewer**. In the description enter **View the audit relevant logs in the audit log viewer**.
 Click on the **Create**-button.
 
-<br><img src="/exercises/ex3/IMAGES/audit7.png" width="70%">
+<br><img src="/exercises/ex3/IMAGES/CreateViewerRoleCollection.png" width="70%">
 
 5. Now you can see the **Audit Log Viewer** role collection together with the other role collections. Click on **">"** on the right side of the newly created role collection to open the details. 
 
-6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the audit log viewer service called **Auditlog_Auditor** to the role collection.
-To do so click on the **Edit**-button.
+6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the audit log viewer service called **Auditlog_Auditor** to the role collection. To do so click on the **Edit**-button.
 
-<br><img src="/exercises/ex3/IMAGES/audit8.png" width="70%">
+<br><img src="/exercises/ex3/IMAGES/EditViewerRoleCollection.png" width="70%">
 
-7. In the edit mode search under role name for the two roles called **Auditlog_Auditor**.
+7. Open the selection dialog for roles in **Roles** section.
 
-<br><img src="/exercises/ex3/IMAGES/audit9.png" width="70%">
+<br><img src="/exercises/ex3/IMAGES/OpenRoleSelectionDialog.png" width="70%">
 
 8. Mark the two roles called **Auditlog_Auditor** and click the "Add"-button. 
 
