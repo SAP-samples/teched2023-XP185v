@@ -13,57 +13,58 @@ In this exercise you will learn about further security recommendations that help
 
 It makes sense to review on a regular basis whether the configured users really need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become a target for an attacker. We have two administrative cockpits that are relevant for this exercise. One is the **SAP BTP cockpit**, and the other one is the **administrative console for SAP Cloud Identity Services**. In the trial version of the BTP cockpit, we do not have access to the global account user management and security functionalities. On the other hand, we do have access to the administrative console for SAP Cloud Identity Services. In this exercise we will therefore focus on the users in the administrative console of the SAP Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. That is why it's mandatory to monitor and limit the number of users that have administrative access. The permissions of the SAP Cloud Identity Services are based on the permission concept of the internal user store.
 
-1. Open the **administrative console for Cloud Identity Services** from your bookmarks or like described in the first exercise. 
+1. Open the **administrative console for SAP Cloud Identity Services** from your bookmarks or like described in the first exercise. 
 
-<br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
+<br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
 2. First, we will add a new test user. Navigate to **User & Authorizations -> User Management**
+   
 3. Click on the **+ Add**-button.
 
-<br><img src="/exercises/ex2/images/ex200user1.png" width="70%">
+<br><img src="/exercises/ex2/images/Add_User.png" width="70%">
 
 4. A pop-Up window will allow to enter the relevant test user information. You are free to choose the name and email address. Set the status to active. Click on the **+ Add**-button.
 
-<br><img src="/exercises/ex2/images/ex200user2.png" width="70%">
+<br><img src="/exercises/ex2/images/Add_User_Doe.png" width="70%">
 
 5. Now we add the newly created user to the Administrators. Choose the menu item **Users & Authorizations --> Administrators**.
 
-<br><img src="/exercises/ex2/images/ex22.png" width="70%">
+<br><img src="/exercises/ex2/images/MenuItem_Admins.png" width="70%">
 
 6. Click on **Add -> User**.
 
-<br><img src="/exercises/ex2/images/ex20add.png" width="70%">
+<br><img src="/exercises/ex2/images/Add_Admin_User.png" width="70%">
 
-7. Add the **Identifier** information (Email address) of the new test user in the Add Administrator window and click on the **Save**-button.
+7. Add the **Identifier** information (Email address) of the new test user in the Add Administrator window.
 
-<br><img src="/exercises/ex2/images/ex200user3.png" width="70%">
+<br><img src="/exercises/ex2/images/Enter_Doe_EMail.png" width="70%">
+
+8. As a user record with this identifier is found in the identity directory, you do not need to enter additional user details. Click on the **OK** button.
+
+<br><img src="/exercises/ex2/images/Enter_Doe_EMail_Confirm.png" width="70%">
+
+9. Click the **Save** button to make the test user an administrator of SAP Cloud Identity services.
+
+<br><img src="/exercises/ex2/images/Save_Doe_Admin.png" width="70%">
    
-8. Now we can check the User and his authorizations. The assignment of the following authorizations is critical.
-You will manage them ideally as part of your identity lifecycle process.
+10. Now we can check the user and his authorizations. The assignment of the following authorizations is especially critical. You will manage them ideally as part of your identity lifecycle process.
 - Manage Corporate Identity Providers
 - Manage Tenant Configuration
 - Manage Users
   
-<br><img src="/exercises/ex2/images/ex200user4.png" width="70%">
+<br><img src="/exercises/ex2/images/Admin_Access.png" width="70%">
 
-9. Remove the authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Uncheck all Radio-buttons. Then click on the **Save**-button.
+9. Remove the authorizations, which are not needed anymore by the user. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Disable all authorizations. Then click on the **Save**-button.
 
-<br><img src="/exercises/ex2/images/ex200user5.png" width="70%">
+<br><img src="/exercises/ex2/images/Remove_Admin_Access.png" width="70%">
 
 10. Now you have to confirm your changes. Click on the **Okay** button. 
 
-<br><img src="/exercises/ex2/images/ex200user6.png" width="70%">
+<br><img src="/exercises/ex2/images/Confirm_Remove_Admin_Access.png" width="70%">
 
-The only administrator left will be your trial account user.
-You cannot remove the authorizations of this user completely, as he is the only one left. 
-For this reason, the authorization
-- Manage Tenant Configuration
-- Manage tenant configuration and authorization assignment to users. 
+11. The only administrator left will be your trial account user. You cannot remove the authorizations of this user completely, as you would otherwise lock yourself out of the administration console. For this reason, the authorization **Manage Tenant Configuration** is greyed out. 
 
-is greyed out. 
-
-<br><img src="/exercises/ex2/images/ex2_MTC.png" width="70%">
-
+<br><img src="/exercises/ex2/images/Own_User_Access.png" width="70%">
 
 ## Exercise 2.2 Defining a custom password policy
 
