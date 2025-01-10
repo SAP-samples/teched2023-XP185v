@@ -76,13 +76,13 @@ By default, SAP Cloud Identity Services come with 2 password policies, Standard 
 
 2. Choose the menu item **Applications & Resources --> Password Policies**
 
-<br><img src="/exercises/ex2/images/MenuItem_PasswordPolicies" width="70%">
+<br><img src="/exercises/ex2/images/MenuItem_PasswordPolicies.png" width="70%">
 
 3. Click on the button **+ Create**. 
 
 <br><img src="/exercises/ex2/images/Create_PasswordPolicy.png" width="70%">
 
-4. The dialog **Custom Password Policy** is displayed.
+4. The dialog **Create Custom Password Policy** is displayed.
 
 5. Set the policy strength to **3**. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
 
