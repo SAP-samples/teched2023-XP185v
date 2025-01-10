@@ -157,7 +157,7 @@ Corporate identity lifecycle processes make social sign-on undesirable in most b
 
 3. Choose the **application** that you want to edit.
 4. Choose the **Authentication and Access** tab.
-5. Under **Authentication**, enable or disable **Social Sign-On** using the radio-button. Per default it should be disabled. Because of that you don´t need to change it.
+5. Under **Authentication**, enable or disable **Social Sign-On** using the radio-button. Per default it should be disabled. Because of that you don't need to change it.
 
 <br><img src="/exercises/ex2/images/SocialSignOn.png" width="70%">
 
@@ -165,7 +165,7 @@ With Social Sign-On users can log on to the application via one of the social pr
 
 7. Logout at the **SCI administrative console**.
 
-<br><img src="/exercises/ex1/images/SCI_Logout.png" width="70%">
+<br><img src="/exercises/ex2/images/SCI_Logout.png" width="70%">
 
 ## Summary
 
