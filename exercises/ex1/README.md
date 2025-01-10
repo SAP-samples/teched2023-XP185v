@@ -67,7 +67,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/IdPSelection.png" width="70%">
 
-14.  A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity User and his Password.
+14.  A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity Services User and his Password.
 
 <br><img src="/exercises/ex1/images/IdPLogonPage.png" width="70%"> 
 
@@ -88,7 +88,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/SAPBuildLogout.png" width="70%">
 
-2. Open the **SCI administrative console**, either from your bookmark or from the **BTP cockpit** (In the BTP Cockpit navigate to  -> **Instances and Subscriptions** -> click on the Tile next to Cloud Identity Services).
+2. Open the **SCI administrative console**, either from your bookmark or from the **BTP cockpit** (In the BTP Cockpit navigate to  --> **Instances and Subscriptions** --> click on the Tile next to SAP Cloud Identity Services).
 
 <br><img src="/exercises/ex1/images/IdPLink.png" width="70%">
 
@@ -96,7 +96,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
    
 <br><img src="/exercises/ex1/images/IdPLogonPageAdminConsole.png" width="70%">
 
-4. In the **SCI administrative console** navigate to **Applications & Resources -> Applications**
+4. In the **SCI administrative console** navigate to **Applications & Resources --> Applications**
 
 <br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
@@ -116,7 +116,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
  <br><img src="/exercises/ex1/images/AppConfigRBA_MFA.png" width="70%">
 
-9. Change the Default Authentication Rule to **Default Action = Two-Factor Authentication** and **Two-Factor Method = TOTP**. Don´t forget to **save** at the top right of the page the new configuration. Now the access to all applications on your SAP BTP subaccount which use the XSUAAA for authentication require a Time-based One-time Password (TOTP) as second factor.
+9. Change the Default Authentication Rule to **Default Action = Two-Factor Authentication** and **Two-Factor Method = TOTP**. Don't forget to **save** at the top right of the page the new configuration. Now the access to all applications on your SAP BTP subaccount which use the XSUAAA for authentication require a Time-based One-time Password (TOTP) as second factor.
 
 <br><img src="/exercises/ex1/images/AppConfigRBA_MFA_TOTP.png" width="70%">
 
@@ -124,7 +124,7 @@ Once the configuration is complete, the system prompts the user to select any of
 
 ## Exercise 1.3 - Enable MFA for your User
 
-1. Navigate to your users profile page in **SAP Cloud Identity**.
+1. Navigate to your users profile page in **SAP Cloud Identity Services**.
 
 2. The user profile shows you the authentication methods setup for a user. You can access it through the following link in the trial environment: 
 
@@ -150,7 +150,7 @@ Here you can add/remove your authentication method, like accessing using your fi
 
 <br><img src="/exercises/ex1/images/SCILogout.png" width="70%">
 
-7. Navigate to the **SAP BTP cockpit -> Instance and Subscriptions -> SAP Build Apps -> Open the Application**
+7. Navigate to the **SAP BTP cockpit --> Instance and Subscriptions --> SAP Build Apps --> Open the Application**
 
 <br><img src="/exercises/ex1/images/BuildAppsLink.png" width="70%">
 
@@ -158,7 +158,7 @@ Here you can add/remove your authentication method, like accessing using your fi
 
 <br><img src="/exercises/ex1/images/IdPSelection.png" width="70%">
 
-9. A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity User and his Password.
+9. A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity services user and his password.
 
 <br><img src="/exercises/ex1/images/IdPLogonPage.png" width="70%"> 
 
