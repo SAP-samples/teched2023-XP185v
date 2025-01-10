@@ -1,6 +1,6 @@
 # Exercise 2 - Security Recommendations regarding user access and authentication
 
-In this exercise you will learn about further security recommendations that help protect your accounts from risks related to access and authentication
+In this exercise you will learn about further security recommendations that help protect your accounts from risks related to access and authentication.
 
 # Relevant Security Recommendations
 - BTP-IAS-0002
@@ -11,7 +11,7 @@ In this exercise you will learn about further security recommendations that help
 
 ## Exercise 2.1 Identify obsolete users
 
-It makes sense to review on a regular basis whether the users actually need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this exercise. One is the **SAP BTP cockpit**, and the other one is the **administrative console for Cloud Identity Services**. In the Trial BTP cockpit, we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services, we have access. In this exercise we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
+It makes sense to review on a regular basis whether the configured users really need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become a target for an attacker. We have two administrative cockpits that are relevant for this exercise. One is the **SAP BTP cockpit**, and the other one is the **administrative console for SAP Cloud Identity Services**. In the trial version of the BTP cockpit, we do not have access to the global account user management and security functionalities. On the other hand, we do have access to the administrative console for SAP Cloud Identity Services. In this exercise we will therefore focus on the users in the administrative console of the SAP Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Due to the critical role of the services, it's mandatory to monitor and limit the number of users that have administrative access. The permissions of the SAP Cloud Identity Services are based on the permission concept of the internal user store.
 
 1. Open the **administrative console for Cloud Identity Services** from your bookmarks or like described in the first exercise. 
 
