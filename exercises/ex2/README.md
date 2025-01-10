@@ -11,9 +11,9 @@ In this exercise you will learn about further security recommendations that help
 
 ## Exercise 2.1 Identify obsolete users
 
-It makes sense to review on a regular basis whether the configured users really need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become a target for an attacker. We have two administrative cockpits that are relevant for this exercise. One is the **SAP BTP cockpit**, and the other one is the **administrative console for SAP Cloud Identity Services**. In the trial version of the BTP cockpit, we do not have access to the global account user management and security functionalities. On the other hand, we do have access to the administrative console for SAP Cloud Identity Services. In this exercise we will therefore focus on the users in the administrative console of the SAP Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. That is why it's mandatory to monitor and limit the number of users that have administrative access. The permissions of the SAP Cloud Identity Services are based on the permission concept of the internal user store.
+It makes sense to review on a regular basis whether the configured users really need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become a target for an attacker. We have two administration cockpits that are relevant for this exercise. One is the **SAP BTP cockpit**, and the other one is the **administration console for SAP Cloud Identity Services**. In the trial version of the BTP cockpit, we do not have access to the global account user management and security functionalities. On the other hand, we do have access to the administration console for SAP Cloud Identity Services. In this exercise we will therefore focus on the users in the administration console of the SAP Cloud Identity Services. SAP Cloud Identity Services play a critical role in the access to SAP cloud applications. That is why it's mandatory to monitor and limit the number of users that have administrative access. The permissions of the SAP Cloud Identity Services are based on the permission concept of the internal user store.
 
-1. Open the **administrative console for SAP Cloud Identity Services** from your bookmarks or like described in the first exercise. 
+1. Open the **administration console for SAP Cloud Identity Services** from your bookmarks or like described in the first exercise. 
 
 <br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
@@ -163,7 +163,7 @@ Corporate identity lifecycle processes make social sign-on undesirable in most b
 
 With Social Sign-On users can log on to the application via one of the social providers. They can see this option on the logon page. Which social identity providers logos appear on the logon page of the application depends on the configurations you have made.
 
-7. Logout at the **SCI administrative console**.
+7. Logout at the **SAP Cloud Identity Services administration console**.
 
 <br><img src="/exercises/ex2/images/SCI_Logout.png" width="70%">
 
