@@ -12,11 +12,11 @@ Because of that, we recommend downloading audit logs on a regular basis and save
 
 In this exercise you will subscribe to the **Audit Log Viewer Service**
 
-1. Open the **SAP BTP Cockpit**.
+1. Open the **SAP BTP Cockpit** and navigate to your **trial subaccount** by clicking on the tile.
 
-  <br><img src="/exercises/ex3/IMAGES/audit0.png" width="70%">
+  <br><img src="/exercises/ex0/images/GlobalAccount.png" width="70%">
 
-2. Navigate to your **trial subaccount** by clicking on the tile. Go to **Service Marketplace**.
+2. Go to **Service Marketplace**.
 
  <br><img src="/exercises/ex3/IMAGES/audit02.png" width="70%">
 
