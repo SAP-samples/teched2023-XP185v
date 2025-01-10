@@ -123,9 +123,9 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 
 <br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
-2. Under **Applications & Resources**, choose the **Applications** tile.
+2. Under **Applications & Resources**, choose the **Applications** menu item.
 
-<br><img src="/exercises/ex2/images/ex2selfreg1.png" width="70%">
+<br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
 3. Choose the **application** that you want to edit.
 4. Choose the **Authentication and Access** tab.
@@ -151,9 +151,9 @@ Corporate identity lifecycle processes make social sign-on undesirable in most b
 
 <br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
-2. Under **Applications & Resources**, choose the **Applications** tile.
+2. Under **Applications & Resources**, choose the **Applications** menu item.
 
-<br><img src="/exercises/ex2/images/ex2selfreg1.png" width="70%">
+<br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
 3. Choose the **application** that you want to edit.
 4. Choose the **Authentication and Access** tab.
