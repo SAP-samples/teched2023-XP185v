@@ -24,7 +24,7 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
 <br><img src="/exercises/ex3/IMAGES/audit1.png" width="70%">
   
-4. Now subscribe to it. This is done by using the **create**-button in the upper right corner. The **Audit Log Management Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don´t need it in this exercise.
+4. Now subscribe to it. This is done by using the **create**-button in the upper right corner. The **Audit Log Management Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don't need it in this exercise.
 
 <br><img src="/exercises/ex3/IMAGES/audit2.png" width="70%">
 
@@ -76,7 +76,7 @@ To do so click on the **Edit**-button.
 
 <br><img src="/exercises/ex3/IMAGES/audit10.png" width="70%">
 
-9. Go to the **Users** section and enter the email address of your **SAP Cloud Identity Service user**. Enter it in the **ID** field and select the entry from the list.
+9. Go to the **Users** section and enter the email address of your **SAP Cloud Identity Services user**. Enter it in the **ID** field and select the entry from the list.
 
 <br><img src="/exercises/ex3/IMAGES/audit12.png" width="70%">
  
@@ -102,9 +102,9 @@ Now you learn how to download them via the User Interface.
  
   <br><img src="/exercises/ex3/IMAGES/audit14.png" width="70%">
 
-3. A logon page will appear. Select your **Trial SAP Cloud Identity Service** tenant.
+3. A logon page will appear. Select your **Trial SAP Cloud Identity Services** tenant.
 
-4. A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity User and his Password.
+4. A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity Services user and his password.
 
    <br><img src="/exercises/ex1/images/logon_XSUAA_trial.png" width="50%"> 
 
