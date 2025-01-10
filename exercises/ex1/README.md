@@ -1,7 +1,7 @@
 # Exercise 1 - Enable Multi-Factor Authentication for applications
 
-In this exercise, we will show you how to enable Multi-Factor Authentication (MFA) using Time-based One-Time Passwords (TOTP) for application users. In general, we recommend to configure risk-based authentication methods, such as Multi-Factor Authentication, also for the access to the **SAP BTP Cockpit** and the **SCI administrative console**. In the trial version this is not possible, because there is no possibility to set up a trust configuration to your BTP account on global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
-The configuration in the **SCI administrative console** is the same, only for a different application. You will use **SAP Build Apps** as application to configure the risk-based authentication.
+In this exercise, we will show you how to enable Multi-Factor Authentication (MFA) using Time-based One-Time Passwords (TOTP) for application users. In general, we recommend to configure risk-based authentication methods, such as Multi-Factor Authentication, also for the access to the **SAP BTP Cockpit** and the **SAP Cloud Identity Services administration console**. In the trial version this is not possible, because there is no possibility to set up a trust configuration to your BTP account on global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
+The configuration in the **SAP Cloud Identity Services administration console** is the same, only for a different application. You will use **SAP Build Apps** as application to configure the risk-based authentication.
 
 :bulb: **What is Multi-Factor Authentication (MFA)?**
 
@@ -88,15 +88,15 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/SAPBuildLogout.png" width="70%">
 
-2. Open the **SCI administrative console**, either from your bookmark or from the **BTP cockpit** (In the BTP Cockpit navigate to  --> **Instances and Subscriptions** --> click on the Tile next to SAP Cloud Identity Services).
+2. Open the **SAP Cloud Identity Services administration console**, either from your bookmark or from the **BTP cockpit** (In the BTP Cockpit navigate to  --> **Instances and Subscriptions** --> click on the Tile next to SAP Cloud Identity Services).
 
 <br><img src="/exercises/ex1/images/IdPLink.png" width="70%">
 
-3. In the pop-up window Sign-In with your email and password to the **SCI administrative console**.
+3. In the pop-up window Sign-In with your email and password to the **SAP Cloud Identity Services administration console**.
    
 <br><img src="/exercises/ex1/images/IdPLogonPageAdminConsole.png" width="70%">
 
-4. In the **SCI administrative console** navigate to **Applications & Resources --> Applications**
+4. In the **SAP Cloud Identity Services administration console** navigate to **Applications & Resources --> Applications**
 
 <br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
