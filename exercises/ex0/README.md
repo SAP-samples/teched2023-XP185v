@@ -1,6 +1,6 @@
 # Getting started
 
-After you have activated your trial account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity (SCI) trial with access to the SAP Cloud Identity administrative console you are set for the next steps.
+After you have activated your trial account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity (SCI) trial with access to the SAP Cloud Identity Services administration console you are set for the next steps.
 
 We expect that you have created a **trial subaccount** in your SAP BTP trial account cockpit.
 
@@ -45,17 +45,17 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
    
   <br><img src="/exercises/ex0/images/SCI_Cockpit.png" width="70%"> 
 
-8. In the **SCI administration console -> Applications & Resources -> Applications** you will see the trust configuration that was established by your BTP trial account. It is called **SAP BTP subaccount trial**.
+8. In the **SAP Cloud Identity Services administration console -> Applications & Resources -> Applications** you will see the trust configuration that was established by your BTP trial account. It is called **SAP BTP subaccount trial**.
 
   <br><img src="/exercises/ex0/images/TrialSubaccountApp3.png" width="70%"> 
 
   Applications you deploy in your BTP subaccount can now delegate authentication to the SCI tenant you just created. And in the **SCI admin console** you may configure the various options for authentication and multi-factor authentication.
 
- 9.  Log out of the **SCI administrative console**.
+ 9.  Log out of the **SAp Cloud Identity Services administration console**.
 
   <br><img src="/exercises/ex0/images/SCI_Logout.png" width="70%"> 
 
 ## Summary
 
-Now that you have checked all the prerequisites and have access to both administrative cockpits, SAP BTP cockpit and the SCI cockpit,  
+Now that you have checked all the prerequisites and have access to both administration cockpits, SAP BTP cockpit and the SCI cockpit,  
 Continue to - [Exercise 1 - Enable Multi-Factor Authentication for applications](../ex1/README.md)
