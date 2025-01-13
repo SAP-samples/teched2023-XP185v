@@ -70,7 +70,7 @@ A Time-based One-Time Password (TOTP) is a numerical code, which is generated wi
 
 <br><img src="/exercises/ex1/images/IdPLogonPage.png" width="70%"> 
 
-15. The Authorization should be successful as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the **SAP Build App** application.
+15. The authorizations should be in place as your user was assigned to the required role collections during the booster creation process. You will see the entry page of the **SAP Build App** application.
 
 <br><img src="/exercises/ex1/images/SAPBuild.png" width="70%">
 
@@ -79,7 +79,7 @@ A Time-based One-Time Password (TOTP) is a numerical code, which is generated wi
 <br><img src="/exercises/ex1/images/SAPBuildLogout.png" width="70%">
 
 
-## Exercise 1.2 - Configure Multi Factor Authentication to access SAP Build Apps
+## Exercise 1.2 - Configure Multi-Factor Authentication to access SAP Build Apps
 
 In exercise 1.1 we enabled SAP Build Apps and the configured users are now able to authenticate with the custom identity provider when they try to access the application. However, we want to restrict the access to the application and only allow access with a second authentication factor.
 
