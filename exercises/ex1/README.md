@@ -119,13 +119,13 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/AppConfigRBA_MFA_TOTP.png" width="70%">
 
-Once the configuration is complete, the system prompts the user to select any of the available options after the initial username and password are provided. Next step is to enable the users to use MFA.
+Once the configuration is complete, the system prompts the user to select any of the available MFA options after the initial username and password are provided.
 
-## Exercise 1.3 - Enable MFA for your User
+## Exercise 1.3 - Enable MFA for your user
 
-1. Navigate to your users profile page in **SAP Cloud Identity Services**.
+1. Navigate to your user's profile page in **SAP Cloud Identity Services**.
 
-2. The user profile shows you the authentication methods setup for a user. You can access it through the following link in the trial environment: 
+2. The user profile shows you the authentication methods set up for a user. You can access it through the following link in the trial environment: 
 
 **https://"trialtenant-ID".trial-accounts.ondemand.com/ui/protected/profilemanagement**
 
