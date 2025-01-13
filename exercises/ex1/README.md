@@ -149,7 +149,7 @@ Here you can add or remove authentication methods, like accessing using your fin
 
 <br><img src="/exercises/ex1/images/SCILogout.png" width="70%">
 
-7. Navigate to the **SAP BTP cockpit --> Instance and Subscriptions --> SAP Build Apps --> Open the Application**
+7. Navigate to **SAP BTP Cockpit --> Instances and Subscriptions --> SAP Build Apps --> Open the Application**
 
 <br><img src="/exercises/ex1/images/BuildAppsLink.png" width="70%">
 
