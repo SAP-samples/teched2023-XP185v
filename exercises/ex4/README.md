@@ -138,6 +138,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/HomeFromPolicy.png" width="70%">
 
+
 ## Exercise 4.7 Validate that you can only see the allowed user accounts
 
 1. The tile **User Management** shows the value 1. So out of the 2 users that are stored in the user management, you only have access to 1. Click on the tile.
