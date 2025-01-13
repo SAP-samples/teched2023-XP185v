@@ -58,15 +58,15 @@ A Time-based One-Time Password (TOTP) is a numerical code, which is generated wi
 
 <br><img src="/exercises/ex1/images/WizardStep6.png" width="70%">
 
-12. Go to **Instances and Subscriptions** in your Subaccount - Click on the icon to open **SAP Build Apps**
+12. Go to **Instances and Subscriptions** in your Subaccount - Click on the icon to open **SAP Build Apps**.
 
 <br><img src="/exercises/ex1/images/BuildAppsLink.png" width="70%">
 
-13. A Logon page opens. Use your **Trial Account Identity Provider** to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity).
+13. A Logon page opens. Use your **Trial Account Identity Provider** to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity Services).
 
 <br><img src="/exercises/ex1/images/IdPSelection.png" width="70%">
 
-14.  A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity Services User and his Password.
+14.  A Pop-Up will ask for **Email** and **Password**. Enter the email of your SAP Cloud Identity Services User and her password.
 
 <br><img src="/exercises/ex1/images/IdPLogonPage.png" width="70%"> 
 
