@@ -83,11 +83,11 @@ A Time-based One-Time Password (TOTP) is a numerical code, which is generated wi
 
 In exercise 1.1 we enabled SAP Build Apps and the configured users are now able to authenticate with the custom identity provider when they try to access the application. However, we want to restrict the access to the application and only allow access with a second authentication factor.
 
-1. Logout of the SAP Build application and close the Browser window, if you haven`t done already.
+1. Logout of the SAP Build application and close the browser window, if you haven't done already.
 
 <br><img src="/exercises/ex1/images/SAPBuildLogout.png" width="70%">
 
-2. Open the **SAP Cloud Identity Services administration console**, either from your bookmark or from the **BTP cockpit** (In the BTP Cockpit navigate to  --> **Instances and Subscriptions** --> click on the Tile next to SAP Cloud Identity Services).
+2. Open the **SAP Cloud Identity Services administration console**, either from your bookmark or from the **BTP cockpit** (In the BTP Cockpit navigate to  --> **Instances and Subscriptions** --> click on the icon next to SAP Cloud Identity Services).
 
 <br><img src="/exercises/ex1/images/IdPLink.png" width="70%">
 
