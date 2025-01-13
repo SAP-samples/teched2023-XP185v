@@ -43,7 +43,7 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
 ## Exercise 3.2 Configure the Audit Log Viewer Service
 
- In this exercise you will configure the SAP Audit Log Viewer service to see audit relevant log entries.
+ In this exercise you will configure the Audit Log Viewer Service to see audit relevant log entries.
 
 1. Open the **SAP BTP Cockpit**. 
 
@@ -51,7 +51,7 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
 2. Go to the **trial subaccount** by clicking on the tile.
 
-3. Choose the menu item **Security --> Role Collections** and click on the **"+"**-button to create a new role collection.
+3. Choose the menu item **Security --> Role Collections** and click on the **Create**-button to create a new role collection.
 
 <br><img src="/exercises/ex3/IMAGES/CreateRoleCollection.png" width="70%">
 
