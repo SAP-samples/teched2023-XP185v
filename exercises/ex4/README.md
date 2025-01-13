@@ -5,7 +5,7 @@ In this exercise you will learn how to implement fine grained administrative aut
 
 ## Exercise 4.1 Enable policy-based authorizations in SAP Cloud Identity Services
 
-1. Open the administrative console for SAP Cloud Identity Services from your bookmarks or like described in the first exercise.
+1. Open the administration console for SAP Cloud Identity Services from your bookmarks or like described in the first exercise.
 
   <br><img src="/exercises/ex0/images/SCI_Cockpit.png" width="70%">
 
