@@ -10,7 +10,7 @@ Today, we strengthen the authentication process by using MFA, which acts as anot
 
 :bulb: **What is a Time-based One-Time Password (TOTP)?**
 
-A Time-based One-Time Password (TOTP) is a numerical code which is generated with a standard algorithm that uses the current time and a key as input. It is user friendly and available offline in a generator application of the user’s choice, usually on a mobile device. It appears as six-digit numbers that are updated every 30 seconds.
+A Time-based One-Time Password (TOTP) is a numerical code, which is generated with a standard algorithm that uses the current time and a key as input. It is user friendly and available offline in a generator application of the user’s choice, usually on a mobile device. A TOTP is a six-digit number that is updated every 30 seconds.
 
 
 # Relevant Security Recommendations
