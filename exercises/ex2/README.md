@@ -141,7 +141,7 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 
 ## Exercise 2.4 Keep Social Sign-On disabled
 
-For business-to-consumer (public) scenarios, Social Sign-On may be required. If activated users are allowed to log on with their Apple, Google, Facebook, Twitter, or LinkedIn accounts. By default, Social Sign-On is disabled, set to Off, and can be configured per application.
+For business-to-consumer (public) scenarios, Social Sign-On may be required. When activated, users can log on with their Apple, Google, Facebook, Twitter, or LinkedIn accounts. By default, Social Sign-On is disabled and can be configured per application.
 Corporate identity lifecycle processes make social sign-on undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios.
 
 1. Sign in to the **administration console for SAP Cloud Identity Services**.
@@ -152,7 +152,7 @@ Corporate identity lifecycle processes make social sign-on undesirable in most b
 
 <br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
-3. Choose the **application** that you want to edit.
+3. Choose the application that you want to edit.
 4. Choose the **Authentication and Access** tab.
 5. Under **Authentication**, enable or disable **Social Sign-On** using the radio-button. Per default it should be disabled. Because of that you don't need to change it.
 
