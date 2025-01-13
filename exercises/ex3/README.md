@@ -62,11 +62,11 @@ Click on the **Create**-button.
 
 5. Now you can see the **Audit Log Viewer** role collection together with the other role collections. Click on **">"** on the right side of the newly created role collection to open the details. 
 
-6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the audit log viewer service called **Auditlog_Auditor** to the role collection. To do so click on the **Edit**-button.
+6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the Audit Log Viewer Service called **Auditlog_Auditor** to the role collection. To do so click on the **Edit**-button.
 
 <br><img src="/exercises/ex3/IMAGES/EditViewerRoleCollection.png" width="70%">
 
-7. Open the selection dialog for roles in **Roles** section.
+7. Open the selection dialog for roles in the **Roles** section.
 
 <br><img src="/exercises/ex3/IMAGES/OpenRoleSelectionDialog.png" width="70%">
 
