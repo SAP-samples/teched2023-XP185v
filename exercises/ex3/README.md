@@ -118,7 +118,7 @@ Now you learn how to download them via the user interface.
 
    <br><img src="/exercises/ex3/IMAGES/AuditLog.png" width="70%">
 
-8. The retention period of the logs in the Cloud Foundry environment is 90 days. Therefore, it is recommended to backup the audit log files or import them via the audit log retrieval API into a SIEM system.  You can download the files from the user interface. To do so, click on the download button in the middle of the headline.
+8. The retention period of the logs in the Cloud Foundry environment is 90 days. Therefore, it is recommended to backup the audit log files or import them via the audit log retrieval API into a SIEM system.  You can download the files from the user interface. To do so, click on the download button in the middle of the toolbar.
 
    <br><img src="/exercises/ex3/IMAGES/AuditLogDownload.png" width="70%">
 
@@ -128,6 +128,6 @@ You now know how to download the audit relevant log files for backup.
 
 ## Summary
 
-In this exercise you have configured the **SAP Audit Log Viewer service** to see the audit relevant log entries. In addition, you have seen how to download the audit.log files before the retention period ends.
+In this exercise you have configured the **Audit Log Viewer Service** to see the audit relevant log entries. In addition, you have seen how to download the audit.log files before the retention period ends.
 
 Continue to - [Exercise 4 - Managing administrative authorizations in SAP Cloud Identity Services ](../ex4/README.md)
