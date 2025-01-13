@@ -131,7 +131,7 @@ Once the configuration is complete, the system prompts the user to select any of
 
 Add the **ui/protected/profilemanagement** in your browser after **https://"trialtenant-ID".trial-accounts.ondemand.com/**
 
-Here you can add/remove your authentication method, like accessing using your fingerprint etc. The next steps need a device with a time-based authentication application installed (such as Google Authenticator or Microsoft Authenticator).
+Here you can add or remove authentication methods, like accessing using your fingerprint etc. The next steps need a device with a time-based authentication application installed (such as Google Authenticator or Microsoft Authenticator).
 
 3. Open the Multi-Factor Authentication. Click on **Activate TOTP Two-Factor Authentication**.
 
