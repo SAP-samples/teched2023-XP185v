@@ -8,9 +8,9 @@ Because of that, we recommend downloading audit logs on a regular basis and save
 - BTP-AUD-0001
 
 
-## Exercise 3.1 Subscribe to the SAP Audit Log Viewer service
+## Exercise 3.1 Subscribe to the Audit Log Viewer Service
 
-In this exercise you will subscribe to the **SAP Audit Log Viewer service**
+In this exercise you will subscribe to the **Audit Log Viewer Service**
 
 1. Open the **SAP BTP Cockpit** and navigate to your **trial subaccount** by clicking on the tile.
 
@@ -20,7 +20,7 @@ In this exercise you will subscribe to the **SAP Audit Log Viewer service**
 
  <br><img src="/exercises/ex3/IMAGES/ServiceMarketplace.png" width="70%">
 
-3. Enter **audit** in the search field. Click on the tile for the **SAP Audit Log Viewer service**.
+3. Enter **audit** in the search field. Click on the tile for the **Audit Log Viewer Service**.
 
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceTile.png" width="70%">
   
