@@ -13,7 +13,7 @@ In this exercise you will learn how to implement fine grained administrative aut
 
   <br><img src="/exercises/ex4/images/TenantSettings.png" width="70%">
 
-3. Open the tab **Policy-Based Authorizations**.
+3. Click on **Policy-Based Authorizations**.
 
   <br><img src="/exercises/ex4/images/PolicyBasedAuthZMenu.png" width="70%">
 
@@ -87,7 +87,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/RemoveReadManageUsersAuthZ.png" width="70%">
 
-7. Go to the **Home** tab.
+7. Go to the **Home** page.
 
   <br><img src="/exercises/ex4/images/Home2.png" width="70%">
 
@@ -134,7 +134,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/SetRestrictionValue.png" width="70%">
 
-9. Go to the **Home** tab.
+9. Go to the **Home** page.
 
   <br><img src="/exercises/ex4/images/HomeFromPolicy.png" width="70%">
 
@@ -148,6 +148,10 @@ You have now created an authorization policy that gives READ access to user acco
 2. You can only see the user account with the company name **Bestrun**, due to the restriction that you applied to the access policy. 
 
 <br><img src="/exercises/ex4/images/RestrictedListOfUsers.png" width="70%">
+
+If you would later like to return to the role-based authorizations, do the following:
+- Go to **Users & Authorizations** --> **Administrators** and enable all relevant access roles for you user
+- Go to **Tenant Settings** in the **Applications & Resources** section. Click on **Policy-Based Authorizations** and disable policy-based authorizations. Please note that when you do this, your custom policies will be deleted. 
 
 ## Summary
 
