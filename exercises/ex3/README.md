@@ -70,11 +70,11 @@ Click on the **Create**-button.
 
 <br><img src="/exercises/ex3/IMAGES/OpenRoleSelectionDialog.png" width="70%">
 
-8. Mark the two roles called **Auditlog_Auditor** and click the "Add"-button. 
+8. Mark the two roles called **Auditlog_Auditor** and click the **Add**-button. 
 
 <br><img src="/exercises/ex3/IMAGES/AddRoles2.png" width="70%">
 
-9. Go to the **Users** section and enter the email address of your **SAP Cloud Identity Services user**. Enter it in the **ID** field and select the entry from the list.
+9. Go to the **Users** section and enter the email address of your **SAP Cloud Identity Services user**. Enter it in the **ID** field and select the entry from the list. Ensure that you pick the user from your custom identity provider, not the default identity provider. 
 
 <br><img src="/exercises/ex3/IMAGES/SelectUser.png" width="70%">
  
@@ -82,7 +82,7 @@ Click on the **Create**-button.
 
 <br><img src="/exercises/ex3/IMAGES/RoleCollectionCreated.png" width="70%"> 
  
-11. The result will be that the user with the assigned authorizations can use the **Audit Log Viewer service**. You need to be logged into the cockpit with this user to be able to see the Viewer in the next step.
+11. The result will be that the user with the assigned authorizations can use the **Audit Log Viewer Service**. You need to be logged into the cockpit with this user to be able to see the viewer in the next step.
 
  
 
