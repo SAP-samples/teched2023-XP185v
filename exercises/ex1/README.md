@@ -91,15 +91,15 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/IdPLink.png" width="70%">
 
-3. In the pop-up window Sign-In with your email and password to the **SAP Cloud Identity Services administration console**.
+3. In the pop-up window, sign-in with your email and password to the **SAP Cloud Identity Services administration console**.
    
 <br><img src="/exercises/ex1/images/IdPLogonPageAdminConsole.png" width="70%">
 
-4. In the **SAP Cloud Identity Services administration console** navigate to **Applications & Resources --> Applications**
+4. In the **SAP Cloud Identity Services administration console**, navigate to **Applications & Resources --> Applications**.
 
 <br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
-5. On the left side you see Bundled and System Applications. In Bundled Applications we see the Application **SAP BTP subaccount trial**. Click on it to see the configuration data of this application.
+5. On the left side you see bundled and system applications. In **Bundled Applications** we see the Application **SAP BTP subaccount trial**. Click on it to see the configuration data of this application.
 
 💡  **XSUAA** is a service broker for the OAuth authorization server provided by the Cloud Foundry UAA. It offers authentication and authorization services for micro service style applications. It is used by almost all applications running on SAP BTP in the cloud foundry environment. When we configure Two-factor authentication for this application, all applications running on SAP BTP in the cloud foundry environment, will have to provide a second factor for authentication. 
    
