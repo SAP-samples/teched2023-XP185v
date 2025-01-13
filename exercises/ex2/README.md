@@ -166,7 +166,7 @@ With social sign-on, users can log on to the application via one of the social n
 
 ## Summary
 
-In this exercise you have learned how to identity potentially not needed user accounts. In addition, you have seen how you can define custom password policies, and how to check for several settings related to the authentication of users.
+In this exercise you have learned how to identify potentially not needed user accounts. In addition, you have seen how you can define custom password policies, and how to check several settings related to the authentication of users.
 
 
 
