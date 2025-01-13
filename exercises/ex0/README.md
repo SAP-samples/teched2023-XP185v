@@ -37,7 +37,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
 
   <br><img src="/exercises/ex0/images/TrustConfig.png" width="70%">
 
-6. To logon to your personal identity provider, navigate in your subaccount to **Instance and Subscriptions**. Click on the tile next to the subscribed application **Cloud Identity Services**, which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services trial account cockpit. 
+6. To logon to your personal identity provider, navigate in your subaccount to **Instances and Subscriptions**. Click on the icon next to the subscribed application **Cloud Identity Services**, which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services trial account cockpit. 
 
   <br><img src="/exercises/ex0/images/CIS_Link3.png" width="70%">
 
