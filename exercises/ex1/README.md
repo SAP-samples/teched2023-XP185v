@@ -133,7 +133,7 @@ Add the **ui/protected/profilemanagement** in your browser after **https://"tria
 
 Here you can add or remove authentication methods, like accessing using your fingerprint etc. The next steps need a device with a time-based one-time passwords application installed (such as Google Authenticator or Microsoft Authenticator).
 
-3. Open the Multi-Factor Authentication. Click on **Activate TOTP Two-Factor Authentication**.
+3. Open the Multi-Factor Authentication section. Click on **Activate TOTP Two-Factor Authentication**.
 
 <br><img src="/exercises/ex1/images/SCIProfileActivateTOTP.png" width="70%">
 
@@ -141,7 +141,7 @@ Here you can add or remove authentication methods, like accessing using your fin
 
 <br><img src="/exercises/ex1/images/TOTPKey2.png" width="70%">
 
-5. Now you have a device configured for TOTP two-factor authentication.
+5. Now you have configured your device for TOTP two-factor authentication.
 
 <br><img src="/exercises/ex1/images/TOTPKey3.png" width="70%">
 
