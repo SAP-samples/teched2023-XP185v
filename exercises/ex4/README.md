@@ -150,7 +150,7 @@ You have now created an authorization policy that gives READ access to user acco
 <br><img src="/exercises/ex4/images/RestrictedListOfUsers.png" width="70%">
 
 :bulb: If you would later like to return to the role-based authorizations, do the following:
-- Go to **Users & Authorizations** --> **Administrators** and enable all relevant access roles for you user
+- Go to **Users & Authorizations** --> **Administrators** and enable all relevant access roles for your user
 - Go to **Tenant Settings** in the **Applications & Resources** section. Click on **Policy-Based Authorizations** and disable policy-based authorizations. Please note that when you do this, your custom policies will be deleted. 
 
 ## Summary
