@@ -31,7 +31,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
 
 5. Check the trust configuration for application users.
 
-   Navigate in the  BTP Cockpit to **Trial HOME -> your initial subaccount (e.g. trial) -> Security -> Trust Configuration**
+   Navigate in the  BTP Cockpit to **Trial HOME --> your initial subaccount (e.g. trial) --> Security --> Trust Configuration**
 
    Check if the Custom Identity Provider for applications is configured. If not, then go back to the preparations and follow the blog [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/) on how to configure it.
 
@@ -45,13 +45,13 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
    
   <br><img src="/exercises/ex0/images/SCI_Cockpit.png" width="70%"> 
 
-8. In the **SAP Cloud Identity Services administration console -> Applications & Resources -> Applications** you will see the trust configuration that was established by your BTP trial account. It is called **SAP BTP subaccount trial**.
+8. In the **SAP Cloud Identity Services administration console --> Applications & Resources --> Applications** you will see the trust configuration that was established by your BTP trial account. It is called **SAP BTP subaccount trial**.
 
   <br><img src="/exercises/ex0/images/TrialSubaccountApp3.png" width="70%"> 
 
-  Applications you deploy in your BTP subaccount can now delegate authentication to the SCI tenant you just created. And in the **SCI admin console** you may configure the various options for authentication and multi-factor authentication.
+  Applications you deploy in your BTP subaccount can now delegate authentication to the SCI tenant you just created. And in the **SCI administration console** you may configure the various options for authentication and multi-factor authentication.
 
- 9.  Log out of the **SAp Cloud Identity Services administration console**.
+ 9.  Log out of the **SAP Cloud Identity Services administration console**.
 
   <br><img src="/exercises/ex0/images/SCI_Logout.png" width="70%"> 
 
