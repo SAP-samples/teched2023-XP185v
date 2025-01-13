@@ -99,6 +99,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   As the **READ_USERS_BESTRUN** policy does not have any restrictions, you still have access to all user records.
 
+
 ## Exercise 4.6 Restrict the authorization policy
 
 1. Go to **Applications & Resources** --> **Applications**.
