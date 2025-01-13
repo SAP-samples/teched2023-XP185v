@@ -127,16 +127,13 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 
 <br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
-3. Choose the **application** that you want to edit.
+3. Choose the application that you want to edit.
 4. Choose the **Authentication and Access** tab.
 5. Under **Authentication**, choose **User Application Access**.
 
 <br><img src="/exercises/ex2/images/User_Application_Access.png" width="70%">
 
-6. Set the radio button to define which set of users will be able to access the application:
-- Public
-- Internal
-- Private
+6. Set the radio button to define which set of users will be able to access the application: Public, Internal or Private.
 
 <br><img src="/exercises/ex2/images/Set_User_Application_Access.png" width="70%">
   
