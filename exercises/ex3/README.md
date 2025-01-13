@@ -8,9 +8,9 @@ Because of that, we recommend downloading audit logs on a regular basis and save
 - BTP-AUD-0001
 
 
-## Exercise 3.1 Subscribe to the Audit Log Viewer Service
+## Exercise 3.1 Subscribe to the SAP Audit Log Viewer service
 
-In this exercise you will subscribe to the **Audit Log Viewer Service**
+In this exercise you will subscribe to the **SAP Audit Log Viewer service**
 
 1. Open the **SAP BTP Cockpit** and navigate to your **trial subaccount** by clicking on the tile.
 
@@ -20,7 +20,7 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
 
  <br><img src="/exercises/ex3/IMAGES/ServiceMarketplace.png" width="70%">
 
-3. Enter **audit** in the search field. Click on the tile for the **Audit Log Viewer Service**.
+3. Enter **audit** in the search field. Click on the tile for the **SAP Audit Log Viewer service**.
 
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceTile.png" width="70%">
   
@@ -36,14 +36,14 @@ In this exercise you will subscribe to the **Audit Log Viewer Service**
    
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceViewSubscription.png" width="70%">
 
-7. Under **Instances and Subscriptions**, you can now see the new application **Audit Log Viewer Service** and the **Go to Application** button.
+7. Under **Instances and Subscriptions**, you can now see the new application **SAP Audit Log Viewer service** and the **Go to Application** button.
    
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceSubscriptionDetails.png" width="70%">
 
 
-## Exercise 3.2 Configure the Audit Log Viewer Service
+## Exercise 3.2 Configure the SAP Audit Log Viewer service
 
- In this exercise you will configure the Audit Log Viewer Service to see audit relevant log entries.
+ In this exercise you will configure the SAP Audit Log Viewer service to see audit relevant log entries.
 
 1. Open the **SAP BTP Cockpit**. 
 
@@ -62,7 +62,7 @@ Click on the **Create**-button.
 
 5. Now you can see the **Audit Log Viewer** role collection together with the other role collections. Click on **">"** on the right side of the newly created role collection to open the details. 
 
-6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the Audit Log Viewer Service called **Auditlog_Auditor** to the role collection. To do so click on the **Edit**-button.
+6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the SAP Audit Log Viewer service called **Auditlog_Auditor** to the role collection. To do so click on the **Edit**-button.
 
 <br><img src="/exercises/ex3/IMAGES/EditViewerRoleCollection.png" width="70%">
 
@@ -82,21 +82,21 @@ Click on the **Create**-button.
 
 <br><img src="/exercises/ex3/IMAGES/RoleCollectionCreated.png" width="70%"> 
  
-11. The result will be that the user with the assigned authorizations can use the **Audit Log Viewer Service**. You need to be logged into the cockpit with this user to be able to see the viewer in the next step.
+11. The result will be that the user with the assigned authorizations can use the **SAP Audit Log Viewer service**. You need to be logged into the cockpit with this user to be able to see the viewer in the next step.
 
  
 
 
-## Exercise 3.3 Check the audit logs and download audit log entries via the Audit Log Viewer Service
+## Exercise 3.3 Check the audit logs and download audit log entries via the SAP Audit Log Viewer service
 
-You can download the audit logs via the audit log retrieval API to import them into your Security Information and Event Management (SIEM) system or you can download them via the Viewer User Interface to store them as backup on your file system.
+You can download the audit logs via the audit log retrieval API to import them into your Security Information and Event Management (SIEM) system or you can download them via the viewer user interface to store them as backup on your file system.
 Now you learn how to download them via the user interface.
 
 1. Open the **SAP BTP Cockpit**. 
 
   <br><img src="/exercises/ex0/images/GlobalAccount.png" width="70%">
 
-2. Navigate to **Services --> Instances and Subscriptions**. Under **Subscriptions** you will see the **Audit Log Viewer Service**. Next to the text field there is a link to the user interface. Click on it.
+2. Navigate to **Services --> Instances and Subscriptions**. Under **Subscriptions** you will see the **SAP Audit Log Viewer service**. Next to the text field there is a link to the user interface. Click on it.
  
   <br><img src="/exercises/ex3/IMAGES/LinkViewerUI.png" width="70%">
 
@@ -106,7 +106,7 @@ Now you learn how to download them via the user interface.
 
    <br><img src="/exercises/ex3/IMAGES/ViewerUILogon.png" width="70%"> 
 
-5. As we enabled in the first exercise Multi-Factor Authentication (MFA) using Time-based one-time password (TOTP) for applications on BTP,  the **Two-Factor Authentication** window will pop-up. Generate the passcode on your mobile device and enter it. After entering the time-based passcode generated by your mobile device,  the **Audit Log Viewer**-application will open.
+5. As we enabled in the first exercise Multi-Factor Authentication (MFA) using Time-based one-time password (TOTP) for applications on BTP,  the **Two-Factor Authentication** window will pop-up. Generate the passcode on your mobile device and enter it. After entering the time-based passcode generated by your mobile device,  the **SAP Audit Log Viewer service**-application will open.
 
   <br><img src="/exercises/ex3/IMAGES/ViewerUILogon2FA.png" width="70%">
 
@@ -128,6 +128,6 @@ You now know how to download the audit relevant log files for backup.
 
 ## Summary
 
-In this exercise you have configured the **Audit Log Viewer Service** to see the audit relevant log entries. In addition, you have seen how to download the audit.log files before the retention period ends.
+In this exercise you have configured the **SAP Audit Log Viewer service** to see the audit relevant log entries. In addition, you have seen how to download the audit.log files before the retention period ends.
 
 Continue to - [Exercise 4 - Managing administrative authorizations in SAP Cloud Identity Services ](../ex4/README.md)
