@@ -65,7 +65,7 @@ You have now created an authorization policy that gives READ access to user acco
 
   <br><img src="/exercises/ex4/images/StartUserManagement.png" width="70%">
 
-2. Click the **Add** button and enter the details for a new user. Then click the **Add** button on the popup dialog.
+2. Note: If you already created a test user in the previous exercise then you can continue with step 3 and edit the existing user account. If you did not create a test user, click the **Add** button and enter the details for a new user. Then click the **Add** button on the popup dialog.
 
   <br><img src="/exercises/ex4/images/AddUser.png" width="70%">
 
