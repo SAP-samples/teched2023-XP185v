@@ -100,9 +100,9 @@ Now you learn how to download them via the user interface.
  
   <br><img src="/exercises/ex3/IMAGES/LinkViewerUI.png" width="70%">
 
-3. A logon page will appear. Select your **Trial SAP Cloud Identity Services** tenant.
+3. A logon page will appear. Select your trial **SAP Cloud Identity Services** tenant.
 
-4. A Pop-Up will ask for **Email** and **Password**. Enter the Email of your SAP Cloud Identity Services user and his password.
+4. A pop-up will ask for **Email** and **Password**. Enter the email of your SAP Cloud Identity Services user and her password.
 
    <br><img src="/exercises/ex3/IMAGES/ViewerUILogon.png" width="70%"> 
 
