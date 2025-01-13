@@ -87,16 +87,16 @@ Click on the **Create**-button.
  
 
 
-## Exercise 3.3 Check the audit logs and download audit log entries via the SAP Audit Log Viewer service
+## Exercise 3.3 Check the audit logs and download audit log entries via the Audit Log Viewer Service
 
 You can download the audit logs via the audit log retrieval API to import them into your Security Information and Event Management (SIEM) system or you can download them via the Viewer User Interface to store them as backup on your file system.
-Now you learn how to download them via the User Interface.
+Now you learn how to download them via the user interface.
 
 1. Open the **SAP BTP Cockpit**. 
 
   <br><img src="/exercises/ex0/images/GlobalAccount.png" width="70%">
 
-2. Navigate to **Services > Instances and Subscriptions**. Under Subscriptions you will see the **Audit Log Viewer service**. Next to the text field there is a link to the user interface. Click on it.
+2. Navigate to **Services --> Instances and Subscriptions**. Under **Subscriptions** you will see the **Audit Log Viewer Service**. Next to the text field there is a link to the user interface. Click on it.
  
   <br><img src="/exercises/ex3/IMAGES/LinkViewerUI.png" width="70%">
 
