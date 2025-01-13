@@ -1,6 +1,6 @@
 # Getting started
 
-After you have activated your trial account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity (SCI) trial with access to the SAP Cloud Identity Services administration console you are set for the next steps.
+After you have activated your trial account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity Services (SCI) trial with access to the SAP Cloud Identity Services administration console you are set for the next steps.
 
 We expect that you have created a **trial subaccount** in your SAP BTP trial account cockpit.
 
