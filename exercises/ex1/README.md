@@ -5,7 +5,7 @@ In this exercise, we will show you how to enable Multi-Factor Authentication (MF
 :bulb: **What is Multi-Factor Authentication (MFA)?**
 
 Multi-Factor Authentication can be described as “An authentication mechanism that requires more than one distinct authentication factor for successful authentication”.
-When a user authenticates, the user must provide valid credentials, consisting of either one or multiple factors. It uses a variety of factors and information to verify the user identity. Many earlier systems use one factor, like username/ password, which is also called basic authentication.
+When a user authenticates, the user must provide valid credentials, consisting of either one or multiple factors. It uses a variety of factors and information to verify the user identity. Many earlier systems use a single factor, such as a username and password, which is also known as basic authentication.
 Today, we strengthen the authentication process by using MFA, which acts as another layer of security for users and reduces the risk of unauthorized access.
 
 :bulb: **What is a Time-based One-Time Password (TOTP)?**
