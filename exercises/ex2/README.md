@@ -47,7 +47,7 @@ It makes sense to review on a regular basis whether the configured users really 
 
 <br><img src="/exercises/ex2/images/Save_Doe_Admin.png" width="70%">
    
-10. Now we can check the user and his authorizations. The assignment of the following authorizations is especially critical. You will manage them ideally as part of your identity lifecycle process.
+10. Now we can check the user and his authorizations. The assignment of the following authorizations is especially critical.
 - Manage Corporate Identity Providers
 - Manage Tenant Configuration
 - Manage Users
