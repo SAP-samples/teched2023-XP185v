@@ -1,6 +1,6 @@
 # Exercise 1 - Enable Multi-Factor Authentication for applications
 
-In this exercise, we will show you how to enable Multi-Factor Authentication (MFA) using Time-based One-Time Passwords (TOTP) for application users. In general, we recommend to configure risk-based authentication methods, such as Multi-Factor Authentication, both for application users and for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). Platform users are those that give access to the **SAP BTP Cockpit** and the **SAP Cloud Identity Services administration console**. However, in the trial version, it is not possible to set up a custom trust configuration for your BTP account on global account level, which would be required to configure your own Multi-Factor Authentication setup. For that reason we focus on enabling Multi-Factor Authentication for application users in this exercise. The configuration in the **SAP Cloud Identity Services administration console** is the same, only for a different application. You will use **SAP Build Apps** as application to configure risk-based authentication.
+In this exercise, we will show you how to enable Multi-Factor Authentication (MFA) using Time-based One-Time Passwords (TOTP) for application users. In general, we recommend to configure risk-based authentication methods, such as Multi-Factor Authentication, both for application users and for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). Platform users are those that give access to the **SAP BTP Cockpit** and the **SAP Cloud Identity Services administration console**. However, in the trial version, it is not possible to set up a custom trust configuration for your BTP account on global account level, which would be required to configure your own Multi-Factor Authentication setup. For that reason, we focus on enabling Multi-Factor Authentication for application users in this exercise. The configuration in the **SAP Cloud Identity Services administration console** is the same, only for a different application. You will use **SAP Build Apps** as application to configure risk-based authentication.
 
 :bulb: **What is Multi-Factor Authentication (MFA)?**
 
@@ -62,7 +62,7 @@ A Time-based One-Time Password (TOTP) is a numerical code, which is generated wi
 
 <br><img src="/exercises/ex1/images/BuildAppsLink.png" width="70%">
 
-13. A logon page opens. Use your **Trial Account Identity Provider** to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity Services).
+13. A logon page opens. Use your **Trial Account Identity Provider** to logon. There is the Default Identity Provider (SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity Services).
 
 <br><img src="/exercises/ex1/images/IdPSelection.png" width="70%">
 
@@ -81,9 +81,9 @@ A Time-based One-Time Password (TOTP) is a numerical code, which is generated wi
 
 ## Exercise 1.2 - Configure Multi-Factor Authentication to access SAP Build Apps
 
-In exercise 1.1 we enabled SAP Build Apps and the configured users are now able to authenticate with the custom identity provider when they try to access the application. However, we want to restrict the access to the application and only allow access with a second authentication factor.
+In exercise 1.1 we enabled SAP Build Apps, and the configured users are now able to authenticate with the custom identity provider when they try to access the application. However, we want to restrict the access to the application and only allow access with a second authentication factor.
 
-1. Logout of the SAP Build application and close the browser window, if you haven't done already.
+1. Logout of the SAP Build application and close the browser window if you haven't done already.
 
 <br><img src="/exercises/ex1/images/SAPBuildLogout.png" width="70%">
 
@@ -111,11 +111,11 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/AppConfigRBA.png" width="70%">
 
-8. In the **Risk-Based Authentication** frame you have the possibility to create Authentication Rules and you can see the Default Authentication Rule, which is **Allow**.
+8. In the **Risk-Based Authentication** frame you have the possibility to create Authentication Rules, and you can see the Default Authentication Rule, which is **Allow**.
 
  <br><img src="/exercises/ex1/images/AppConfigRBA_MFA.png" width="70%">
 
-9. Change the Default Authentication Rule to **Default Action = Two-Factor Authentication** and **Two-Factor Method = TOTP**. Don't forget to **save** at the top right of the page the new configuration. Now the access to applications on your SAP BTP subaccount that use the XSUAA for authentication requires a Time-based One-time Password (TOTP) as second factor.
+9. Change the Default Authentication Rule to **Default Action = Two-Factor Authentication** and **Two-Factor Method = TOTP**. Do not forget to **save** at the top right of the page the new configuration. Now the access to applications on your SAP BTP subaccount that use the XSUAA for authentication requires a Time-based One-time Password (TOTP) as second factor.
 
 <br><img src="/exercises/ex1/images/AppConfigRBA_MFA_TOTP.png" width="70%">
 
