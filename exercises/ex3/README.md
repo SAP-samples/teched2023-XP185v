@@ -24,7 +24,7 @@ In this exercise you will subscribe to the **SAP Audit Log Viewer service**
 
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceTile.png" width="70%">
   
-4. Now subscribe to it. This is done by using the **Create**-button in the upper right corner. The **Audit Log Management Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don't need it in this exercise.
+4. Now subscribe to it. This is done by using the **Create**-button in the upper right corner. The **Audit Log Management Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We do not need it in this exercise.
 
 <br><img src="/exercises/ex3/IMAGES/CreateAuditLogService.png" width="70%">
 
