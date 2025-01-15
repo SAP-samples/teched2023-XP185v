@@ -11,7 +11,7 @@ In this exercise you will learn about further security recommendations that help
 
 ## Exercise 2.1 Identify obsolete users
 
-It makes sense to review on a regular basis whether the configured users really need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become a target for an attacker. We have two administration cockpits that are relevant for this exercise. One is the **SAP BTP cockpit**, and the other one is the **administration console for SAP Cloud Identity Services**. In the trial version of the BTP cockpit, we do not have access to the global account user management and security functionalities. On the other hand, we do have access to the administration console for SAP Cloud Identity Services. In this exercise we will therefore focus on the users in the administration console of the SAP Cloud Identity Services. SAP Cloud Identity Services play a critical role in the access to SAP cloud applications. That is why it's mandatory to monitor and limit the number of users that have administrative access. The permissions of the SAP Cloud Identity Services are based on the permission concept of the internal user store.
+It makes sense to review on a regular basis whether the configured users really need access to administrative tasks and cockpits. After all, an abandoned account with high privileges could become a target for an attacker. We have two administration cockpits that are relevant for this exercise. One is the **SAP BTP cockpit**, and the other one is the **administration console for SAP Cloud Identity Services**. In the trial version of the BTP cockpit, we do not have access to the global account user management and security functionalities. On the other hand, we do have access to the administration console for SAP Cloud Identity Services. In this exercise we will therefore focus on the users in the administration console of the SAP Cloud Identity Services. SAP Cloud Identity Services play a critical role in the access to SAP cloud applications. That is why it is mandatory to monitor and limit the number of users that have administrative access. The permissions of the SAP Cloud Identity Services are based on the permission concept of the internal user store.
 
 1. Open the **administration console for SAP Cloud Identity Services** from your bookmarks or like described in the first exercise. 
 
@@ -68,7 +68,7 @@ It makes sense to review on a regular basis whether the configured users really 
 
 ## Exercise 2.2 Defining a custom password policy
 
-By default, SAP Cloud Identity Services come with 2 password policies, Standard and Enterprise. In this exercise you will learn how to define your own password policy, based on your company's requirements.
+By default, SAP Cloud Identity Services come with two password policies, Standard and Enterprise. In this exercise you will learn how to define your own password policy, based on your company's requirements.
 
 1. Open the **administration console for SAP Cloud Identity Services**. 
 
@@ -92,7 +92,7 @@ By default, SAP Cloud Identity Services come with 2 password policies, Standard 
 
 6. Decide on the "Password Behavior". If the password set by the user does not comply with the policy, should the user be able to set a new password by entering the old one, or should the password reset process be triggered?
 
-7. Set the "Required character groups count" to 3. SAP Cloud Identity Services supports 4 types of character groups: uppercase letters, lowercase letters, numbers, and symbols. With this setting you specify how many different groups need to be part of the password. 
+7. Set the "Required character groups count" to **3**. SAP Cloud Identity Services supports 4 types of character groups: uppercase letters, lowercase letters, numbers, and symbols. With this setting you specify how many different groups need to be part of the password. 
 
 8. Fill out the remaining fields of the "Custom Password Policy" dialog and click on the **"+ Create"**-button. Your new password policy is added to the top of the list as it has the highest strength.
 
@@ -137,7 +137,7 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 
 <br><img src="/exercises/ex2/images/Set_User_Application_Access.png" width="70%">
   
-7. The default setting is already **Internal**. Because of that you don't need to change it.
+7. The default setting is already **Internal**. Because of that you do not need to change it.
 
 ## Exercise 2.4 Keep Social Sign-On disabled
 
@@ -154,11 +154,11 @@ Corporate identity lifecycle processes make social sign-on undesirable in most b
 
 3. Choose the application that you want to edit.
 4. Choose the **Authentication and Access** tab.
-5. Under **Authentication**, enable or disable **Social Sign-On** using the radio-button. Per default it should be disabled. Because of that you don't need to change it.
+5. Under **Authentication**, enable or disable **Social Sign-On** using the radio-button. Per default it should be disabled. Because of that you do not need to change it.
 
 <br><img src="/exercises/ex2/images/SocialSignOn.png" width="70%">
 
-With social sign-on, users can log on to the application via one of the social network providers. They can will the respective option on the logon page. Which social identity providers' logos appear on the logon page of the application depends on the configurations you have made.
+With social sign-on, users can log on to the application via one of the social network providers. They will see the respective option on the logon page. Which social identity providers' logos appear on the logon page of the application depends on the configurations you have made.
 
 7. Logout at the **SAP Cloud Identity Services administration console**.
 
