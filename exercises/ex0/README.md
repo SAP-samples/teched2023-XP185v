@@ -1,6 +1,6 @@
 # Getting started
 
-After you have activated your trial account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity Services (SCI) trial with access to the SAP Cloud Identity Services administration console you are set for the next steps.
+After you have activated your trial account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity Services trial with access to the SAP Cloud Identity Services administration console you are set for the next steps.
 
 We expect that you have created a **trial subaccount** in your SAP BTP trial account cockpit.
 
@@ -8,7 +8,7 @@ We also expect that you have enabled the **Cloud Foundry Environment**.
 
 Finally, you have installed on your mobile device a time-based one-time password (TOTP) authentication application (such as Google Authenticator or Microsoft Authenticator).
 
-Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you have already established the trust configuration in your BTP trial subaccount, which adds the trial identity provider for applications to enable users from your trial identity provider to log on to applications consumed in this subaccount.
+Following the blog post to setup the **SAP Cloud Identity Services trial** you have already established the trust configuration in your BTP trial subaccount, which adds the trial identity provider for applications to enable users from your trial identity provider to log on to applications consumed in this subaccount.
 
 ## Result of the preparation
 
@@ -33,7 +33,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
 
    Navigate in the  BTP Cockpit to **Trial HOME --> your initial subaccount (e.g. trial) --> Security --> Trust Configuration**
 
-   Check if the Custom Identity Provider for applications is configured. If not, then go back to the preparations and follow the blog [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/) on how to configure it.
+   Check if the Custom Identity Provider for applications is configured. If not, then go back to the preparations and follow the blog post [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/) on how to configure it.
 
   <br><img src="/exercises/ex0/images/TrustConfig.png" width="70%">
 
@@ -41,7 +41,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
 
   <br><img src="/exercises/ex0/images/CIS_Link3.png" width="70%">
 
-7. **Bookmark** the link for fast and quick access to the **SCI cockpit**.
+7. **Bookmark** the link for fast and quick access to the **SAP Cloud Identity Services cockpit**.
    
   <br><img src="/exercises/ex0/images/SCI_Cockpit.png" width="70%"> 
 
@@ -49,7 +49,7 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
 
   <br><img src="/exercises/ex0/images/TrialSubaccountApp3.png" width="70%"> 
 
-  Applications you deploy in your BTP subaccount can now delegate authentication to the SCI tenant you just created. And in the **SCI administration console** you may configure the various options for authentication and multi-factor authentication.
+  Applications you deploy in your BTP subaccount can now delegate authentication to the SAP Cloud Identity Services tenant you just created. And in the **SAP Cloud Identity Services administration console** you may configure the various options for authentication and multi-factor authentication.
 
  9.  Log out of the **SAP Cloud Identity Services administration console**.
 
@@ -57,5 +57,5 @@ Following the blog to setup the **SAP Cloud Identity Services (SCI) trial** you 
 
 ## Summary
 
-Now that you have checked all the prerequisites and have access to both administration cockpits, SAP BTP cockpit and the SCI cockpit,  
+Now that you have checked all the prerequisites and have access to both administration cockpits, SAP BTP cockpit and the SAP Cloud Identity Services cockpit,  
 Continue to - [Exercise 1 - Enable Multi-Factor Authentication for applications](../ex1/README.md)
