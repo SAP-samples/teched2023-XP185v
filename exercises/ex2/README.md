@@ -17,7 +17,7 @@ It makes sense to review on a regular basis whether the configured users really 
 
 <br><img src="/exercises/ex2/images/SCI_Console.png" width="70%">
 
-2. First, we will add a new test user. Navigate to **User & Authorizations --> User Management**
+2. First, we will add a new test user. Navigate to **Users & Authorizations --> User Management**
    
 3. Click on the **+ Add**-button.
 
@@ -100,7 +100,7 @@ By default, SAP Cloud Identity Services come with two password policies, Standar
 
 Now you know how to create a custom password policy that you can use for additional protection of your applications. We now want to add the password policy to an application. 
 
-9. Navigate to **Applications & Resources --> Applications**. Select the **SAP Build Apps** application on the left and choose on the right side **Authentication & Access --> Policies**.
+9. Navigate to **Applications & Resources --> Applications**. Select the **SAP Build Apps** application on the left and choose on the right side **Authentication and Access --> Policies**.
 
 <br><img src="/exercises/ex2/images/Application_AuthNConfig.png" width="70%">
 
@@ -141,7 +141,7 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 
 ## Exercise 2.4 Keep Social Sign-On disabled
 
-For business-to-consumer (public) scenarios, social sign-on may be required. When activated, users can log on with their Apple, Google, Facebook, Twitter, or LinkedIn accounts. By default, social sign-on is disabled and can be configured per application.
+For business-to-consumer (public) scenarios, social sign-on may be required. When activated, users can log on with their Apple, Google, Facebook, X, or LinkedIn accounts. By default, social sign-on is disabled and can be configured per application.
 Corporate identity lifecycle processes make social sign-on undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios.
 
 1. Sign in to the **administration console for SAP Cloud Identity Services**.
