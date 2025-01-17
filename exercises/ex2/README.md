@@ -89,7 +89,7 @@ By default, SAP Cloud Identity Services come with two password policies, Standar
 
 <br><img src="/exercises/ex2/images/PasswordPolicy_Details.png" width="70%">
 
-💡 SAP Cloud Identity Services do not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong.
+💡 SAP Cloud Identity Services do not measure the strength of the policy that you define. It is up to you to decide, which properties are required for a password to be considered strong.
 
 6. Decide on the "Password Behavior". If the password set by the user does not comply with the policy, should the user be able to set a new password by entering the old one, or should the password reset process be triggered?
 
