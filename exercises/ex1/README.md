@@ -149,7 +149,7 @@ Here you can add or remove authentication methods, like accessing using your fin
 
 <br><img src="/exercises/ex1/images/SCILogout.png" width="70%">
 
-7. Navigate to **SAP BTP Cockpit --> Instances and Subscriptions --> SAP Build Apps --> Open the Application**
+7. Navigate to **SAP BTP Cockpit --> Instances and Subscriptions --> SAP Build Apps --> Go to Application**
 
 <br><img src="/exercises/ex1/images/BuildAppsLink.png" width="70%">
 
@@ -157,7 +157,7 @@ Here you can add or remove authentication methods, like accessing using your fin
 
 <br><img src="/exercises/ex1/images/IdPSelection.png" width="70%">
 
-9. A pop-up will ask for **Email** and **Password**. Enter the email of your SAP Cloud Identity services user and her password.
+9. A pop-up will ask for **Email** and **Password**. Enter the email of your SAP Cloud Identity Services user and her password.
 
 <br><img src="/exercises/ex1/images/IdPLogonPage.png" width="70%"> 
 
