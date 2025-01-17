@@ -4,7 +4,8 @@ In this exercise you will learn about security recommendations that help protect
 The SAP Audit Log service is a platform service that stores all the audit logs written on your behalf by other platform services that you use. It allows you to retrieve the audit logs for your subaccount via the [audit log retrieval API](https://help.sap.com/docs/btp/sap-business-technology-platform/audit-log-retrieval-api-usage-for-subaccounts-in-cloud-foundry-environment) or view them using the SAP Audit Log Viewer service. The default retention time is 90 days, after which the audit log data is deleted.
 Because of that, we recommend downloading audit logs on a regular basis and save them, ideally in an existing and central audit log system or Security Information and Event Management (SIEM) system of your choice. This can be done via the audit log retrieval API or in the SAP Audit Log Viewer service. 
 
-# Relevant Security Recommendations
+## Relevant Security Recommendations
+- [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations)
 - BTP-AUD-0001
 
 
