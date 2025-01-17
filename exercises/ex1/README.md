@@ -1,6 +1,6 @@
 # Exercise 1 - Enable Multi-Factor Authentication for applications
 
-In this exercise, we will show you how to enable Multi-Factor Authentication (MFA) using Time-based One-Time Passwords (TOTP) for application users. In general, we recommend to configure risk-based authentication methods, such as Multi-Factor Authentication, both for application users and for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). Platform users are those that give access to the **SAP BTP Cockpit** and the **SAP Cloud Identity Services administration console**. However, in the trial version, it is not possible to set up a custom trust configuration for your BTP account on global account level, which would be required to configure your own Multi-Factor Authentication setup. For that reason, we focus on enabling Multi-Factor Authentication for application users in this exercise. The configuration in the **SAP Cloud Identity Services administration console** is the same, only for a different application. You will use **SAP Build Apps** as application to configure risk-based authentication.
+In this exercise, we will show you how to enable Multi-Factor Authentication (MFA) using Time-based One-Time Passwords (TOTP) for application users. In general, we recommend to configure risk-based authentication methods, such as Multi-Factor Authentication, both for application users and for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). Platform users are those that give access to the **SAP BTP Cockpit** and the **SAP Cloud Identity Services administration console**. However, in the trial version, it is not possible to set up a custom trust configuration for your BTP account on global account level, which would be required to configure your own Multi-Factor Authentication setup. For that reason, we focus on enabling Multi-Factor Authentication for application users in this exercise. The configuration in the **SAP Cloud Identity Services administration console** is the same, only for a different application. You will test the Multi-Factor-Authentication with **SAP Build Apps** as an example for a BTP-based application with configured risk-based authentication.
 
 :bulb: **What is Multi-Factor Authentication (MFA)?**
 
@@ -175,7 +175,7 @@ Your user profile shows you the authentication methods set up for you. Here you 
 
 ## Summary
 
-In this exercise you learned how to setup SAP Build and how to enable Multi-Factor Authentication (MFA) using a Time-based One-Time Password (TOTP).
+In this exercise you learned how to setup SAP Build and how to enable Multi-Factor Authentication (MFA) using a Time-based One-Time Password (TOTP). You will find the detailed documentation on how to set up Multi-Factor-Authentication in SAP Cloud Identity Service in the [help portal](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/user-management-multi-factor-authentication).
 
 
 
