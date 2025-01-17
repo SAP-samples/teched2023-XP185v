@@ -2,7 +2,8 @@
 
 In this exercise you will learn about further security recommendations that help protect your accounts from risks related to access and authentication.
 
-# Relevant Security Recommendations
+## Relevant Security Recommendations
+- [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations)
 - BTP-IAS-0002
 - BTP-IAS-0003
 - BTP-IAS-0005
