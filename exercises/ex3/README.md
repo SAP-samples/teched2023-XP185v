@@ -21,7 +21,7 @@ In this exercise you will subscribe to the **SAP Audit Log Viewer service**
 
  <br><img src="/exercises/ex3/IMAGES/ServiceMarketplace.png" width="70%">
 
-3. Enter **audit** in the search field. Click on the tile for the **SAP Audit Log Viewer service**.
+3. Enter **audit** in the search field. Click on the tile for the **Audit Log Viewer Service**.
 
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceTile.png" width="70%">
   
@@ -37,7 +37,7 @@ In this exercise you will subscribe to the **SAP Audit Log Viewer service**
    
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceViewSubscription.png" width="70%">
 
-7. Under **Instances and Subscriptions**, you can now see the new application **SAP Audit Log Viewer service** and the **Go to Application** button.
+7. Under **Instances and Subscriptions**, you can now see the new application **Audit Log Viewer Service** and the **Go to Application** button.
    
 <br><img src="/exercises/ex3/IMAGES/AuditLogServiceSubscriptionDetails.png" width="70%">
 
@@ -97,7 +97,7 @@ Now you learn how to download them via the user interface.
 
   <br><img src="/exercises/ex0/images/GlobalAccount.png" width="70%">
 
-2. Navigate to **Services --> Instances and Subscriptions**. Under **Subscriptions** you will see the **SAP Audit Log Viewer service**. Next to the text field there is a link to the user interface. Click on it.
+2. Navigate to **Services --> Instances and Subscriptions**. Under **Subscriptions** you will see the **Audit Log Viewer Service**. Next to the text field there is a link to the user interface. Click on it.
  
   <br><img src="/exercises/ex3/IMAGES/LinkViewerUI.png" width="70%">
 
