@@ -111,7 +111,7 @@ Now you learn how to download them via the user interface.
 
   <br><img src="/exercises/ex3/IMAGES/ViewerUILogon2FA.png" width="70%">
 
-6. In the newly opened **Audit Log Viewer UI** you can accept the default timeframe or select a specific one to see the latest audit log entries. On the right side there is button to retrieve the logs after the selection of the timeframe.
+6. In the newly opened **Audit Log Viewer UI** you can accept the default timeframe or select a specific one to see the latest audit log entries. On the right side there is a button to retrieve the logs after the selection of the timeframe.
 
    <br><img src="/exercises/ex3/IMAGES/ViewerUI.png" width="70%">
 
