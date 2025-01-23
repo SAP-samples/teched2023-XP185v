@@ -59,7 +59,7 @@ A Time-based One-Time Password (TOTP) is a numerical code, which is generated wi
 
 <br><img src="/exercises/ex1/images/WizardStep6.png" width="70%">
 
-11. Go to **Instances and Subscriptions** in your Subaccount - Click on the icon to open **SAP Build Apps**.
+11. Go to **Services --> Instances and Subscriptions** in your Subaccount - Click on the icon to open **SAP Build Apps**.
 
 <br><img src="/exercises/ex1/images/BuildAppsLink.png" width="70%">
 
