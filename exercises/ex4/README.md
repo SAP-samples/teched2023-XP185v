@@ -79,15 +79,15 @@ You have now created an authorization policy that gives READ access to user acco
 
 ## Exercise 4.4 Remove classic authorization for reading users
 
-5. Go to **Users & Authorizations** --> **Administrators**.
+1. Go to **Users & Authorizations** --> **Administrators**.
 
   <br><img src="/exercises/ex4/images/AdministratorsConfigFromUsers.png" width="70%">
 
-6. Select your administrator user and disable the authorizations **Manage Users** and **Read Users**. Then click the **Save** button.
+2. Select your administrator user and disable the authorizations **Manage Users** and **Read Users**. Then click the **Save** button.
 
   <br><img src="/exercises/ex4/images/RemoveReadManageUsersAuthZ.png" width="70%">
 
-7. Go to the **Home** page.
+3. Go to the **Home** page.
 
   <br><img src="/exercises/ex4/images/Home2.png" width="70%">
 
