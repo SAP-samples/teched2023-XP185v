@@ -31,13 +31,13 @@ Following the blog post to setup the **SAP Cloud Identity Services trial** you h
 
 5. Check the trust configuration for application users.
 
-   Navigate in the  BTP Cockpit to **Trial HOME --> your initial subaccount (e.g. trial) --> Security --> Trust Configuration**
+   Navigate in the  BTP Cockpit to **Security --> Trust Configuration**
 
    Check if the Custom Identity Provider for applications is configured. If not, then go back to the preparations and follow the blog post [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/) on how to configure it.
 
   <br><img src="/exercises/ex0/images/TrustConfig.png" width="70%">
 
-6. To logon to your personal identity provider, navigate in your subaccount to **Instances and Subscriptions**. Click on the icon next to the subscribed application **Cloud Identity Services**, which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services trial account cockpit. 
+6. To logon to your personal identity provider, navigate in your subaccount to **Services --> Instances and Subscriptions**. Click on the icon next to the subscribed application **Cloud Identity Services**, which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services trial account cockpit. 
 
   <br><img src="/exercises/ex0/images/CIS_Link3.png" width="70%">
 
