@@ -1,4 +1,5 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-XP264)
+[![REUSE status](https://api.reuse.software/badge/github.com/sap-samples/teched2023-XP185v)](https://api.reuse.software/info/github.com/sap-samples/teched2023-XP185v)
+
 
 # Get Hands-On Security Recommendations for Your SAP BTP Environment
 
