@@ -100,7 +100,7 @@ In exercise 1.1 we enabled SAP Build Apps, and the configured users are now able
 
 <br><img src="/exercises/ex1/images/SCIConsoleApps.png" width="70%">
 
-5. On the left side you see bundled and system applications. In **Bundled Applications** you find the application **SAP BTP subaccount trial**. Click on it to see the configuration data of this application.
+5. On the left side you see bundled and system applications. In **Bundled Applications** you find the application **SAP BTP subaccount trial**. This application represents most of the business applications that are part of the SAP BTP subaccount, including SAP Build Apps. You will find more details below in the note on XSUAA. Click on the application **SAP BTP subaccount trial** to see the configuration data of this application.
 
 <br><img src="/exercises/ex1/images/Applications.png" width="70%">
 
