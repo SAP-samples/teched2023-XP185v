@@ -20,6 +20,7 @@ The requirements to follow the exercises in this repository are active trial acc
 
 **Then activate your SAP Cloud Identity Services trial. Follow the instructions in this blog:** 
 [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
+💡Ensure that you choose the default domain "ondemand.com", as "cloud.sap" is currently not supported on the trial landscape.
 
 💡You should have access to your mailbox, which you used while registering for your BTP trial account in order to activate your SAP Cloud Identity Services trial account.
 
