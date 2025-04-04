@@ -28,7 +28,7 @@ The requirements to follow the exercises in this repository are active trial acc
 
 Now you are ready to start the exercises.
 
-💡In some of the exercises you will be asked to switch from one user to another. This works more reliable if you use the Incognito mode of your browser. Without the Icognito mode, you may run into situations where you are authenticated automatically with the wrong user.
+💡In some of the exercises you will be asked to switch from one user to another. This works more reliable if you use the Incognito mode of your browser. Without the Incognito mode, you may run into situations where you are authenticated automatically with the wrong user.
 
 ## Exercises
 
