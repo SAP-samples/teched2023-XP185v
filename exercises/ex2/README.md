@@ -93,7 +93,7 @@ By default, SAP Cloud Identity Services come with two password policies, Standar
 
 6. Decide on the "Password Behavior". If the password set by the user does not comply with the policy, should the user be able to set a new password by entering the old one, or should the password reset process be triggered?
 
-7. Set the "Required character groups count" to **3**. SAP Cloud Identity Services supports 4 types of character groups: uppercase letters, lowercase letters, numbers, and symbols. With this setting you specify how many different groups need to be part of the password. 
+7. Set the "Required character groups" to **3**. SAP Cloud Identity Services supports 4 types of character groups: uppercase letters, lowercase letters, numbers, and symbols. With this setting you specify how many different groups need to be part of the password. 
 
 8. Fill out the remaining fields of the "Custom Password Policy" dialog and click on the **"+ Create"**-button. Your new password policy is added to the top of the list as it has the highest strength.
 
