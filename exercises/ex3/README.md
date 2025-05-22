@@ -71,7 +71,7 @@ Click on the **Create**-button.
 
 <br><img src="/exercises/ex3/IMAGES/OpenRoleSelectionDialog.png" width="70%">
 
-8. Mark the two roles called **Auditlog_Auditor** and click the **Add**-button. 
+8. Mark the two roles called **Auditlog_Auditor**, click the **Add**-button and save the role collection.
 
 <br><img src="/exercises/ex3/IMAGES/AddRoles2.png" width="70%">
 
