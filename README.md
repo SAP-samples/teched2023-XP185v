@@ -5,7 +5,7 @@
 
 ## Description
 
-This repository contains the material for the **Get Hands-On Security Recommendations for Your SAP BTP Environment** session.  
+This repository contains the material for the **Get Hands-On Security Recommendations for Your SAP BTP Environment** session. Still valid. 
 
 ## Overview
 
